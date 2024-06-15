@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "test-utils":["./test-utils"]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}

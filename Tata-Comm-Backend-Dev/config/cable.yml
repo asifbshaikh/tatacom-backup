@@ -1,0 +1,25 @@
+default: &default
+  adapter: redis
+  url: <%= ENV.fetch('REDIS_URL', 'redis://127.0.0.1:6379') %>
+  password: <%= ENV.fetch('REDIS_PASSWORD', nil).presence %>
+  channel_prefix: <%= "tring_#{Rails.env}_action_cable"  %>
+
+development:
+  <<: *default
+
+test:
+  adapter: test
+  channel_prefix: <%= "tring_#{Rails.env}_action_cable"  %>
+
+staging:
+  <<: *default
+
+production:
+  adapter: redis
+  host: <%= ENV.fetch("REDIS_HOST_#{Rails.env.upcase}", '127.0.0.1') %>
+  port: <%= ENV.fetch("REDIS_PORT_#{Rails.env.upcase}", '6379') %>
+  password: <%= ENV.fetch("REDIS_PASSWORD_#{Rails.env.upcase}", nil).presence %>
+  channel_prefix: <%= "tring_#{Rails.env}_action_cable" %>
+  ssl: <%= ENV.fetch("REDIS_SSL_#{Rails.env.upcase}", false) %>
+  ssl_params:
+    verify_mode: <%= OpenSSL::SSL::VERIFY_NONE %>

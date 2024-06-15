@@ -1,0 +1,394 @@
+openapi: 3.0.2
+info:
+  title: Digo Engage API
+  description: Customer engagement suite, an open-source alternative to Intercom, Zendesk, Salesforce Service Cloud etc.
+  version: 0.0.1
+
+servers:
+  - url: http://localhost:3050/{basePath}
+    description: local development server
+    variables:
+      basePath:
+        default: ''
+        enum:
+          - ''
+          - api/v1
+          - api/v2
+          - api/v3
+  - url: https://set1.dev.digo-platform.com:3060/{basePath}
+    description: Development server set1 deployed on AWS
+    variables:
+      basePath:
+        default: ''
+        enum:
+          - ''
+          - api/v1
+          - api/v2
+          - api/v3
+  - url: https://set2.dev.digo-platform.com:3060/{basePath}
+    description: Development server set3 deployed on AWS
+    variables:
+      basePath:
+        default: ''
+        enum:
+          - ''
+          - api/v1
+          - api/v2
+          - api/v3
+
+security:
+  - bearerAuth: []
+
+paths:
+  /auth/sign_in:
+    post:
+      tags:
+        - Authentication
+      summary: Gets account setting for account.
+      description: >
+        Fetch account setting for the account.
+      operationId: getAccountSettingOfAccount
+      parameters:
+        - in: query
+          name: email
+          schema:
+            type: string
+          description: Username(email) of the user.
+        - in: query
+          name: password
+          schema:
+            type: string
+            format: password
+          description: Password of the user.
+      responses:
+        '200':
+          description: Get User details after Successful login
+          content:
+            application/json:
+              schema:
+                type: object
+        '401':
+          description: Invalid Credentials.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: string
+                  errors:
+                    type: array
+                    format: string
+        '5XX':
+          description: Unexpected error.
+
+  /accounts/{id}/setting:
+    get:
+      tags:
+        - Account
+      summary: Gets account setting for account.
+      description: >
+        Fetch account setting for the account.
+      operationId: getAccountSettingOfAccount
+      parameters:
+        - name: id
+          in: path
+          description: account ID
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AccountSetting'
+        '404':
+          description: Route not found
+          content:
+            application/json:
+              schema:
+                type: object
+  /accounts/{id}/generate_access_token:
+    post:
+      tags:
+        - Account
+      summary: Generate access token for account.
+      description: >
+        If access token is expired or nil, then generate an access token for the account.
+      operationId: GenerateAccessToken
+      parameters:
+        - name: id
+          in: path
+          description: account ID
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenerateAccessTokenRequest'
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AccountSetting'
+        '404':
+          description: Route not found
+          content:
+            application/json:
+              schema:
+                type: object
+  /accounts/{account_id}/notification_channels:
+    post:
+      tags:
+        - NotificationChannel
+      summary: Create a NotificationChannel
+      description: Create a new NotificationChannel for the specified account
+      operationId: createNotificationChannel
+      parameters:
+        - name: account_id
+          in: path
+          description: ID of the account
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/NotificationChannel'
+      responses:
+        '201':
+          description: NotificationChannel created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotificationChannel'
+        '404':
+          description: Account not found
+          content:
+            application/json:
+              schema:
+                type: object
+  /accounts/{account_id}/notification_channels/{notification_channel_id}:
+    put:
+      tags:
+        - NotificationChannel
+      summary: Update a NotificationChannel
+      description: Update NotificationChannel for the specified account
+      operationId: UpdateNotificationChannel
+      parameters:
+        - name: account_id
+          in: path
+          description: ID of the account
+          required: true
+          schema:
+            type: integer
+            format: int64
+        - name: notification_channel_id
+          in: path
+          description: ID of Notification Channel
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/NotificationChannel'
+      responses:
+        '201':
+          description: NotificationChannel created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotificationChannel'
+        '404':
+          description: Account not found
+          content:
+            application/json:
+              schema:
+                type: object
+  path:
+    /accounts/{account_id}/notification_channels/{notification_channel_id}:
+    get:
+      tags:
+        - NotificationChannel
+      summary: Get a NotificationChannel
+      description: Get a new NotificationChannel from the specified account
+      operationId: GetNotificationChannel
+      parameters:
+        - name: account_id
+          in: path
+          description: ID of the account
+          required: true
+          schema:
+            type: integer
+            format: int64
+        - name: notification_channel_id
+          in: path
+          description: ID of Notification Channel
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        required: false
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotificationChannel'
+        '404':
+          description: Notification Channel not found
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /api/v3/accounts/{account_id}/create_event_log:
+    post:
+      tags:
+        - Account Event Log
+      summary: Create Event Log
+      description: Endpoint to create an event log.
+      parameters:
+        - in: path
+          name: account_id
+          required: true
+          description: ID of the account.
+          schema:
+            type: integer
+        - in: header
+          name: Authorization
+          required: true
+          description: Bearer token for authentication.
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EventLogRequest'
+      responses:
+        '200':
+          description: Event logged successfully
+        '401':
+          description: Unauthorized request
+
+  /api/v3/accounts/{account_id}/get_event_log:
+    get:
+      tags:
+        - Account Event Log
+      summary: Get Event Log
+      description: Endpoint to retrieve event logs.
+      parameters:
+        - in: path
+          name: account_id
+          required: true
+          description: ID of the account.
+          schema:
+            type: integer
+        - in: query
+          name: page
+          required: false
+          description: Page number for pagination.
+          schema:
+            type: integer
+        - in: query
+          name: result_per_page
+          required: false
+          description: Results per page for pagination.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EventLogResponse'
+        '401':
+          description: Unauthorized request
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    AccountSetting:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        account_id:
+          type: integer
+        app_id:
+          type: string
+        created_at:
+          type: string
+          format: date
+        updated_at:
+          type: string
+          format: date
+    GenerateAccessTokenRequest:
+      type: object
+      properties:
+        account_setting:
+          type: object
+          properties:
+            app_id:
+              type: string
+          required:
+            - app_id
+
+      required:
+        - id
+    NotificationChannel:
+      type: object
+      properties:
+        notification_channel:
+          type: object
+        channel_secret_file:
+          type: string
+          format: binary
+      required:
+        - notification_channel
+        - channel_secret_file
+    EventLogRequest:
+      type: object
+      properties:
+        user_attributes:
+          type: object
+        device_attributes:
+          type: object
+        event:
+          type: object
+    EventLogResponse:
+      type: object
+      properties:
+        total_records:
+          type: integer
+        page_no:
+          type: integer
+        result_per_page:
+          type: integer
+        result:
+          type: object
+

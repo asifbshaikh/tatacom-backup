@@ -1,0 +1,243 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello world"
+  messages:
+    reset_password_success: Woot! Request for password reset is successful. Check your mail for instructions.
+    reset_password_failure: Uh ho! We could not find any user with the specified email.
+
+  errors:
+    signup:
+      disposable_email: We do not allow disposable emails
+      invalid_email: You have entered an invalid email
+      email_already_exists: "You have already signed up for an account with %{email}"
+      failed: Signup failed
+    contacts:
+      import:
+        failed: File is blank
+    import_file_segments:
+      successful: File imported and segment updated successfully.
+      not_a_file_segment: This is not File Segment, Please try with File Segment.
+    configurations:
+      invalid_source_type: '%{partial_message} is not a valid source type'
+    resource_not_found: Resource could not be found
+    channel_not_present: "Channel is not present."
+    channel_not_found: "Channel is not found."
+
+  import_users:
+      blank_import: "Import users is blank for the given user."
+  email_config:
+    blank_params: "Provide necessary params to %{action} email connector configuration."
+    success_message: "Email connector configuration %{partial_message}"
+    error_message: "Email connector config %{action}"
+  s3_config:
+    invalid_params: "Please provide all mendatory parameters to save configuration."
+    generic_s3_message: "S3 configuration %{partial_message}"
+    download_success: "File downloaded successfully."
+    invalid_download: "Import file is not present with given date."
+    resource_not_found: "S3 configuration is not present in database. Please share valid s3 credentials."
+  reports:
+    period: Reporting period %{since} to %{until}
+    campaigns_basic_csv:
+      name: Name
+      number: Number
+      content: Message
+      updated_at: Timestamp
+      status: Status
+    agent_csv:
+      agent_name: Agent name
+      conversations_count: Conversations count
+      avg_first_response_time: Avg first response time (Minutes)
+      avg_resolution_time: Avg resolution time (Minutes)
+    team_csv:
+      team_name: Team name
+      conversations_count: Conversations count
+      avg_first_response_time: Avg first response time (Minutes)
+      avg_resolution_time: Avg resolution time (Minutes)
+    default_group_by: day
+
+  notifications:
+    notification_title:
+      conversation_creation: "[New conversation] - #%{display_id} has been created in %{inbox_name}"
+      conversation_assignment: "[Assigned to you] - #%{display_id} has been assigned to you"
+      assigned_conversation_new_message: "[New message] - #%{display_id} %{content}"
+      conversation_mention: "You have been mentioned in conversation [ID - %{display_id}] by %{name}"
+  conversations:
+    messages:
+      instagram_story_content: "%{story_sender} mentioned you in the story: "
+      deleted: This message was deleted
+    activity:
+      status:
+        resolved: "Conversation was marked resolved by %{user_name}"
+        contact_resolved: "Conversation was resolved by %{contact_name}"
+        open: "Conversation was reopened by %{user_name}"
+        pending: "Conversation was marked as pending by %{user_name}"
+        snoozed: "Conversation was snoozed by %{user_name}"
+        auto_resolved: "Conversation was marked resolved by system due to %{duration} days of inactivity"
+      assignee:
+        self_assigned: "%{user_name} self-assigned this conversation"
+        assigned: "Assigned to %{assignee_name} by %{user_name}"
+        removed: "Conversation unassigned by %{user_name}"
+      team:
+        assigned: "Assigned to %{team_name} by %{user_name}"
+        assigned_with_assignee: "Assigned to %{assignee_name} via %{team_name} by %{user_name}"
+        removed: "Unassigned from %{team_name} by %{user_name}"
+      labels:
+        added: "%{user_name} added %{labels}"
+        removed: "%{user_name} removed %{labels}"
+      muted: "%{user_name} has muted the conversation"
+      unmuted: "%{user_name} has unmuted the conversation"
+    templates:
+      greeting_message_body: "%{account_name} typically replies in a few hours."
+      ways_to_reach_you_message_body: "Give the team a way to reach you."
+      email_input_box_message_body: "Get notified by email"
+      csat_input_message_body: "Please rate the conversation"
+    reply:
+      email:
+        header:
+          from_with_name: '%{assignee_name} from %{inbox_name} <%{from_email}>'
+          reply_with_name: '%{assignee_name} from %{inbox_name} <reply+%{reply_email}>'
+      email_subject: "New messages on this conversation"
+      transcript_subject: "Conversation Transcript"
+    survey:
+      response: "Please rate this conversation, %{link}"
+  contacts:
+    online:
+      delete: "%{contact_name} is Online, please try again later"
+  integration_apps:
+    slack:
+      name: "Slack"
+      description: "Slack is a chat tool that brings all your communication together in one place. By integrating Slack, you can get notified of all the new conversations in your account right inside your Slack."
+    webhooks:
+      name: "Webhooks"
+      description: "Webhook events provide you the realtime information about what's happening in your account. You can make use of the webhooks to communicate the events to your favourite apps like Slack or Github. Click on Configure to set up your webhooks."
+    dialogflow:
+      name: "Dialogflow"
+      description: "Build chatbots using Dialogflow and connect them to your inbox quickly. Let the bots handle the queries before handing them off to a customer service agent."
+    fullcontact:
+      name: "Fullcontact"
+      description: "FullContact integration helps to enrich visitor profiles. Identify the users as soon as they share their email address and offer them tailored customer service. Connect your FullContact to your account by sharing the FullContact API Key."
+  user_audience:
+    contact_not_found: "contacts not found for login user"
+  campaign_tags:
+    success:
+      created: "Campaign Tag Created successfully!"
+    errors:
+      name: "Name cannot be blank"
+      campaign_id: "campaign id cannot be blank"
+      group_tag_id: "group tag id cannot be blank"
+      campaign_not_found: "campaign not found"
+  segments:
+    duplicate_segment_creation: "Duplicate segment is created successfully."
+    update_segment: "Segment is updated successfully."
+    export_users_message: "We are processing your request, Please check your email after sometime."
+    contacts_report: "Rerunning the report."
+    existing_event: "You cannot create the same event twice."
+    existing_attribute: "You cannot create the same attribute twice."
+  email_general_setting:
+    success:
+      created: "Email General Setting Created successfully"
+      updated: "Email General Setting Updated successfully"
+    errors:
+      general_setting_exists: "Email General Setting already exists"
+      general_setting_not_found: "General Setting not found for Selected Connector"
+      channel_must_exist: "Email Connector Must Exist"
+      general_setting_not_found: "Email General Setting not found for channel"
+      channel_must_exist: "Email Channel Must Exist"
+  dashboard:
+    success:
+      campaign_found: "Campaigns found"
+    errors:
+      campaign_not_found: "Campaign not found"
+      delivery_type_not_found: "Delivery type not found"
+      format_not_found: "Choose valid format"
+      empty_campaign: "No Campaign found for export"
+      invalid_type: "Choose proper checkboxes or types"
+  campaigns:
+    updated_success: "Channel updated successfully"
+    status:
+      processing: 'Active'
+      scheduled: 'Scheduled'
+      failed: 'Failed'
+      draft: 'Draft'
+      completed: 'Completed'
+      cancelled: 'Cancelled'
+      success: 'Success'
+      paused: 'Paused'
+      initiated: 'Initiated'
+    success:
+      email_message: "Email delivered successfully!"
+      resume: 'Campaign resume successfully.'
+      pause: 'Campaign paused successfully.'
+      cancel: 'Campaign cancelled successfully.'
+      draft: 'Campaign draft successfully.'
+      reschedule: 'Campaign rescheduled successfully.'
+    errors:
+      contact_not_found: "Contacts not found"
+      parameter_missing: "Please provide necessary details"
+      something_went_wrong: "Something went wrong"
+      action_not_supported: 'Action not supported'
+      date_required: 'Start date and end date required'
+      invalid_format: 'Invalid format'
+      invalid_transition: 'Only Scheduled Campaigns can be rescheduled.'
+  sftp_configuration:
+    sftp_client:
+      success: 'Connection is established'
+      error: Failed to connect to %{hostname}
+  db_configuration:
+    test_connection:
+      success: 'Test connection is established with given details'
+      errror: 'Given adapter is invalid'
+    destroy:
+      active_db_connection: 'Configuration is bind to an active db scheduler. Deactivate scheduler to destory this.'
+      success: 'Configuration is successfully deleted'
+  db_schedule:
+    deactivate: 'Db schedule is successfully deactivated'
+  campaign_delivery:
+    params_blank: "params is blank"
+    record_not_exist : "Campaign Delivery record not found"
+  contact_support_mail:
+    success:
+      email_message: "Email sent successfully!"
+    errors:
+      email_message: "Unable to send mail"
+      attachment_file_size: "size exceeds limitation should be less than 10MB"
+      unsupported_file_format: "format is not supported"
+  report_schedulers:
+    delete_success: 'Report scheduler deleted successfully'
+  activerecord:
+    errors:
+      models:
+        contact:
+          attributes:
+            email:
+              taken: "The combination of email and phone number must be unique"

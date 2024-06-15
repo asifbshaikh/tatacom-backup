@@ -1,0 +1,11 @@
+json.global_control_group do
+	json.id global_control_group.id
+	json.control_group global_control_group.control_group
+	json.random_allocation_percentage global_control_group.random_allocation_percentage
+	json.apply_global global_control_group&.apply_global
+	json.allow_marketers global_control_group.allow_marketers
+	json.active global_control_group.active
+	json.account_id global_control_group.account_id
+	json.created_at global_control_group.created_at
+	json.updated_at global_control_group.updated_at
+end

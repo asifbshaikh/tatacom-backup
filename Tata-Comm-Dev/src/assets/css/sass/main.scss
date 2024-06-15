@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700');
+@import './_01_mixins.scss';
+@import './_02_variables';
+@import './_03_core.scss';
+@import './_04_plugins.scss';
+@import './_05_views.scss';
+
+/** your custom css code **/
+/* 
+html {
+    background-color: $theme-color-1 !important;
+}
+*/
+
+
+.nav-effects-custom {
+
+    .nav-item.active a,
+    .nav-link.active a {
+        // li {
+        //   a,
+        //   i {
+        //     color: $primary-color;
+        //   }
+        //   a:hover,
+        //   &.active i,
+        //   &.active a {
+        color: $theme-color-1;
+        text-decoration: underline;
+        cursor: pointer;
+        // color: $primary-color;
+        //   }
+
+        //   &.active:after {
+        //     left: -22px;
+        //   }
+        // }
+    }
+}
+
+.chat-app-nav {
+    .scrollbar-container {
+        padding-left: 10px;
+        margin-left: -10px;
+        padding-right: 10px;
+        margin-right: 0;
+        height: calc(100vh - #{$navbar-height} - 70px);
+
+        @include respond-below(xl) {
+            height: calc(100vh - #{$navbar-height-lg} - 70px);
+        }
+
+        @include respond-below(lg) {
+            height: calc(100vh - #{$navbar-height-md} - 70px);
+        }
+
+        @include respond-below(sm) {
+            height: calc(100vh - #{$navbar-height-xs} - 70px);
+        }
+    }
+
+    .card .card-body {
+        @include respond-below(sm) {
+            padding: 0.75rem;
+        }
+    }
+}
+.directContent {
+    white-space: pre-wrap;
+    line-height: 10px;
+    p {
+        margin: 0;
+    }
+}
+#root .logo, #root .logo-single {
+    background-size: contain;
+}
+.inbox-attachment {
+    img {
+        max-width: 100%;
+    }
+}

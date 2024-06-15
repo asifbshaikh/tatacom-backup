@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+  <h2>Subject: Duplicate Records detected in your recent import</h2>
+  <p>Dear <%= @username %>,</p>
+  <p>We’ve identified duplicate records in your recent import.</p>
+  <p>Number of Duplicates: <%= @number_of_duplicates %></p>
+  <p>Import Date: <%= @import_date %></p>
+  <p>Please review and rectify the duplicates to ensure data accuracy.</p>
+  <p>Thank you</p>
+</body>
+</html>

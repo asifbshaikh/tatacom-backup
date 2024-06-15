@@ -1,0 +1,27 @@
+const DashboardEnums = Object.freeze({
+  ALL: 'ALL',
+  ACTIVE: 'ACTIVE',
+  SCHEDULE: 'SCHEDULE',
+  SCHEDULED: 'SCHEDULED',
+  RUN_YESTERDAY: 'RUN YESTERDAY',
+  DRAFT: 'DRAFT',
+  CARD_ACTIVE: 'active',
+  ONLINE: 'online',
+  OFFLINE: 'offline',
+  AB_CAMPAIGN_1: 'ab_campaign_1',
+  AB_CAMPAIGN_2: 'ab_campaign_2',
+  ALLUSERS: 'All Audience',
+  FILTERBYUSERS: 'Filter Audience By',
+  SINCE: 'Since',
+  CUSTOM_RANGE: 'Custom Range',
+  CANCELLED: 'CANCELLED',
+  PAUSED: 'PAUSED',
+  RESCHEDULE: 'reschedule',
+  CANCEL: 'cancel',
+  PAUSE: 'pause',
+  RESUME: 'resume',
+  RESCHEDULE_PATH: 'reschedule-campaign',
+  RAN_YESTERDAY: 'ran_yesterday',
+});
+
+export default DashboardEnums;

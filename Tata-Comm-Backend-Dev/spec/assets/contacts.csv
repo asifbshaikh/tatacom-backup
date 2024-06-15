@@ -1,0 +1,6 @@
+customer_id,first_name,last_name,email,phone_number,gender,ip_address,identifier
+1,Clarice,Uzzell,cuzzell0@mozilla.org,917876543456,female,70.61.11.201,bb4e11cd-0f23-49da-a123-dcc1fec6852c
+2,Marieann,Creegan,mcreegan1@cornell.edu,917876543455,male,168.186.4.241,e60bab4c-9fbb-47eb-8f75-42025b789c47
+3,Nancey,Windibank,nwindibank2@bluehost.com,917876543457,female,73.44.41.59,f793e813-4210-4bf3-a812-711418de25d2
+4,Sibel,Stennine,sstennine3@yellowbook.com,917876543450,male,115.249.27.155,d6e35a2d-d093-4437-a577-7df76316b937
+5,Tina,O'Lunney,tolunney4@si.edu,917876543451,female,219.181.212.8,3540d40a-5567-4f28-af98-5583a7ddbc56

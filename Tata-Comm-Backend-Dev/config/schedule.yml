@@ -1,0 +1,49 @@
+# https://github.com/ondrejbartas/sidekiq-cron
+# use https://crontab.guru/ to validate
+# validations for this file exist in /spec/configs/schedule_spec.rb
+
+# executed At 12:00 on every day-of-month.
+internal_check_new_versions_job:
+  cron: '0 12 */1 * *'
+  class: 'Internal::CheckNewVersionsJob'
+  queue: scheduled_jobs
+
+# executed At every 5th second..
+# trigger_scheduled_items_job:
+#   cron: '/5 * * * * *'
+#   #cron: '*/5 * * * *'
+#   class: 'TriggerScheduledItemsJob'
+#   queue: scheduled_jobs
+
+# executed At every 5th minute..
+#trigger_imap_email_inboxes_job:
+#  cron: '*/5 * * * *'
+#  class: 'Inboxes::FetchImapEmailInboxesJob'
+#  queue: scheduled_jobs
+
+# Run every day at midnight
+delete_expired_import_user_files_worker:
+  cron: '0 0 * * *'
+  class: 'DeleteExpiredImportUserFilesWorker'
+
+scheduler_job:
+  cron: '*/1 * * * *'
+  class: 'SchedulerJob'
+
+fix_time_scheduler_job:
+  cron: '*/1 * * * *'
+  class: FixTimeSchedulerJob
+
+# executed At every 10th minute
+account_email_delivery_job:
+  cron: '*/10 * * * *'
+  class: Webhooks::AccountEmailDeliveryJob
+
+# Process queue items of event trigger campaigns
+process_queue_items:
+  cron: '*/10 * * * *'
+  class: ProcessQueueItemsJob
+
+db_periodic_scheduler_job:
+  cron: '*/1 * * * *'
+  class: 'DbPeriodicSchedulerJob'

@@ -1,0 +1,510 @@
+@mixin flexTypeCss {
+  display: flex;
+  align-items: center;
+}
+
+.select-audience {
+  display: flex;
+
+  div:first-child {
+    margin-right: 20px;
+  }
+}
+
+.filter-by-list-close {
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+
+  &:active,
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.smsCampaignAvtar {
+  @include flexTypeCss;
+  justify-content: center;
+  border-radius: 50%;
+  min-width: 40px;
+  margin: 0px 10px;
+  min-height: 40px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: var(--theme-color-3);
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.schedule-campaign-btn-group {
+  @include flexTypeCss;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: fit-content;
+  box-shadow: 0 8px 13px -7px var(--separator-color);
+  background-color: var(--theme-color-2);
+  border-radius: 25px;
+  justify-content: space-evenly;
+  border: 1 px solid var(--theme-color-1);
+  gap: 5px;
+}
+
+.one-time-radio-btns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  div.custom-radio {
+    margin-right: 30px;
+  }
+}
+
+.smartphone {
+  position: relative;
+  width: 310px;
+  height: 300px;
+  margin: auto;
+  margin-left: 0px;
+  border: 8px var(--separator-color) solid;
+  border-top-width: 35px;
+  border-bottom: 0px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: var(--theme-color-2);
+}
+
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--secondary-color);
+  border-radius: 10px;
+}
+
+.smartphone .header {
+  white-space: pre-line;
+  text-align: center;
+  height: 40px;
+  padding: 10px;
+  background: var(--separator-color-light);
+}
+
+.smartphone .scrollbar, .whatsappsmartphone .scrollbar{
+  overflow: auto;
+  margin-top: 10px;
+  max-height: 65%;
+}
+
+.smartphone .scrollbar .smartphone-content {
+  white-space: pre-line;
+  width: max-content;
+  max-width: 240px;
+  margin-top: 0px;
+  margin-left: 5px;
+  padding: 5px;
+  background: var(--separator-color-light);
+  border: 16px var(--separator-color-light);
+  border-radius: 5px;
+}
+
+.timecard {
+  white-space: pre-line;
+  margin: 5px 88px 0px 88px;
+  text-align: center;
+  padding: 3px 5px;
+  color: var(--secondary-color);
+  background: var(--theme-color-2);
+  border-radius: 5px;
+}
+.preview-btn{
+  padding: 8px;
+  width: 100%;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  justify-content: center
+}
+
+.whatsappsmartphone {
+  position: relative;
+  width: 310px;
+  height: 300px;
+  margin: auto;
+  margin-left: 0px;
+  border: 8px var(--secondary-color) solid;
+  border-top-width: 30px;
+  border-bottom: 0px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-image: url('/assets/img/whatsapp/whatsappBackground.jpg');
+}
+
+.whatsappsmartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--separator-color);
+  border-radius: 10px;
+}
+
+.whatsappsmartphone .whatsappheader {
+  white-space: pre-line;
+  text-align: center;
+  height: 40px;
+  padding: 10px;
+  color: var(--theme-color-2);
+  background: #128c7e;
+}
+
+.whatsappsmartphone .scrollbar .smartphone-content {
+  white-space: pre-line;
+  width: max-content;
+  max-width: 240px;
+  margin-left: 5px;
+  padding: 5px;
+  color: var(--primary-color);
+  background: var(--theme-color-2);
+  border-radius: 5px;
+}
+
+.content-message {
+  textarea.form-control {
+    resize: none;
+    height: 150px;
+    overflow-y: auto;
+  }
+}
+
+.text-color {
+  color: #d63548;
+}
+
+.tiny-url-desc {
+  font-size: 0.6rem;
+}
+
+.schedule-periodic {
+  .periodic-radio-btns-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    div.custom-radio {
+      margin-right: 30px;
+    }
+  }
+
+  .periodic-weekly-badges {
+    bottom: 30px;
+  }
+}
+
+.day-of-week {
+  .smsCampaignAvtar.active {
+    background-color: var(--theme-color-1);
+    color: var(--theme-color-2);
+  }
+}
+
+.date-of-months {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  .smsCampaignAvtarDate {
+    @include flexTypeCss;
+    justify-content: center;
+    border-radius: 50%;
+    min-width: 25px;
+    margin: 2px 5px;
+    min-height: 25px;
+    background-color: var(--theme-color-3);
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+  .smsCampaignAvtarDate.active {
+    background-color: var(--theme-color-1);
+    color: var(--theme-color-2);
+  }
+}
+
+.send-date {
+  .rdtPicker td.rdtToday:before,
+  .rdtPicker td.rdtActive:hover {
+    border-bottom: 7px solid var(--theme-color-1);
+  }
+}
+
+.day-of-month {
+  .rmdp-selected,
+  .rmdp-today {
+    span:not(.highlight) {
+      background-color: var(--theme-color-1) !important;
+      color: var(--theme-color-2);
+    }
+  }
+
+  .rmdp-arrow {
+    border: solid var(--theme-color-1);
+    border-width: 0 2px 2px 0;
+  }
+
+  .rmdp-week-day {
+    color: var(--theme-color-1);
+  }
+
+  .rmdp-arrow-container:hover,
+  .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover {
+    background-color: var(--theme-color-1);
+    color: var(--theme-color-2);
+  }
+}
+
+.schedule-delivery-control {
+  .schedule-request-limit {
+    max-width: 150px !important;
+    margin: 0px 10px;
+  }
+}
+
+.campaign-type-campaigncardrow {
+  .campaign-type-campaigncardcontent {
+    background-color: var(--theme-color-2);
+  }
+}
+
+.select-channel-campaigncardrow {
+  .select-channel-campaigncardcontent {
+    background-color: var(--theme-color-2);
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .select-channel-campaigncardrow {
+    .select-channel-campaigncardcontent {
+      flex-wrap: wrap;
+    }
+  }
+
+  .campaign-type-campaigncardrow {
+    .campaign-type-campaigncardcontent {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.schedule-reset-btn {
+  color: var(--theme-color-1);
+  cursor: pointer;
+}
+
+.smssegmentStyle {
+  border: 1px solid var(--separator-color-light);
+  padding: 20px;
+  text-align: center;
+};
+
+.segmentedGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 0px;
+};
+
+.campaignSegmentedGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0px;
+};
+
+.headingSegment {
+  border: 1px solid var(--separator-color);
+  padding: 10px;
+  text-align: center;
+  grid-row: span 1;
+};
+
+.segment {
+  border: 1px solid var(--separator-color);
+  padding: 10px;
+  text-align: center;
+  grid-row: span 1.5;
+  background-color: var(--button-text-color)
+};
+
+.tabStyle {
+  @include flexTypeCss;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: fit-content;
+  box-shadow: 0 8px 13px -7px var(--separator-color);
+  background-color: var(--theme-color-2);
+  border-radius: 25px;
+  justify-content: space-evenly;
+  border: 1 px solid var(--theme-color-1);
+  gap: 5px;
+};
+
+.smsDivStyle1 {
+  margin: 0 0 2% 0;
+};
+
+.tabContent {
+  margin: 1% 0 0 0;
+};
+
+.deliveryStatus {
+  height: 80%;
+  padding: 0 4% 0 4%;
+};
+
+.deliverycard {
+  padding: 2% 2% 0 2%;
+};
+
+.pieCard {
+  margin: 2% 0 0 0;
+};
+
+.analyticsGridContainer {
+  padding: 2% 2% 2% 2%;
+  display: flex;
+  flex-direction: row;
+};
+
+.analyticsGridConatiner2 {
+  width: 50%;
+  height: 50%;
+  padding: 0 2% 0 0;
+};
+
+.analyticsGridConatiner3 {
+  width: 50%;
+  height: 50%;
+};
+
+.campaignInfo1 {
+  display: flex;
+};
+
+.campaignInfo2 {
+  flex-direction: column;
+  margin: 2% 15% 2% 8%;
+  width: 60%;
+};
+
+.campaignInfo3 {
+  color: black;
+  width: 40%;
+  margin-right: 5px;
+};
+
+.smssegmentedViewStyle {
+  width: 90%;
+  height: 90%;
+  margin: 0 0 2% 5%;
+  background-color: var(--button-text-color);
+};
+
+.smssegmentStyle3 {
+  height: 20%;
+  padding: 2% 2% 2% 2%;
+};
+
+.trigger-criteria-radio-btns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  div.custom-radio {
+    margin-right: 30px;
+  }
+}
+
+.top-right {
+  width: 300px;
+}
+
+.delete-event-triggered-button{
+  border: none; 
+  background: none;
+}
+
+.campaignInfoEmailDetail {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0px;
+  .infoHeader {
+    border: 1px solid var(--separator-color);
+    padding: 10px;
+    text-align: center;
+    grid-row: span 1;
+  }
+  .data {
+    border: 1px solid var(--separator-color);
+    padding: 10px;
+    text-align: center;
+    grid-row: span 1.5;
+  }
+}
+
+.segmentData {
+  border: 1px solid var(--separator-color);
+}
+
+.executed-user-events-container {
+  align-items: center;
+  padding: 10px;
+  width: 950px;
+}
+
+.campaignInfoHeadingStyle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0px;
+  height: 50%;
+  background-color: var(--button-text-color);
+};
+
+.campaignInfoSegmentStyle {
+  border: 1px solid var(--separator-color);
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+};
+
+.smssegmentStyleHeader{
+  border: 1px solid var(--separator-color-light);
+  padding: 10px;
+  text-align: center;
+}
+
+.selectable-card {
+  width: 45%;
+  cursor: pointer;
+  background-color: var(--theme-color-2); 
+  transition: background-color 0.3s ease; 
+  border-radius: 0.75rem;
+}
+
+.selectable-card.selected {
+  background-color: var(--theme-color-1); 
+  color: var(--theme-color-2);
+}
+
+.inapp-card-with-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}

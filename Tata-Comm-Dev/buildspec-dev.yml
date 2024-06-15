@@ -1,0 +1,31 @@
+# Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
+version: 0.2
+
+env:
+  secrets-manager:
+    SECRET_VALUE: arn:aws:secretsmanager:ap-south-1:648214944412:secret:Tata-Comm-Variable-eaF1TP
+
+phases:
+  install:
+    runtime-versions:
+        nodejs: 14
+    commands:
+        - echo "installing node version 14."
+        - echo $SECRET_VALUE
+  pre_build:
+    commands:
+      #installs dependencies into the node_modules/ directory
+      - npm install
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling
+      - npm run build
+  post_build:
+    commands:
+      - echo Build completed on `date`
+# Include only the files required for your application to run.
+artifacts:
+  files:
+    - '**/*'
+  name: tata_comm_frontend_build_artifact_dev

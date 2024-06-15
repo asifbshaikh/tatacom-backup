@@ -1,0 +1,103 @@
+.channels-config {
+  .note-style {
+    color: $secondary-color;
+    font-style: italic;
+  }
+
+  .allign-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .allign-center {
+    display: flex;
+    align-items: center;
+  }
+
+  .switch-btn-lable {
+    font-size: 16px;
+    margin-left: 6px;
+  }
+  .plus-button-style {
+    font-size: 20px;
+    cursor: pointer;
+    .simple-icon-plus {
+      font-weight: 900;
+    }
+  }
+  .rdtPicker {
+    min-width: 166px;
+  }
+  .disabled-days-style {
+    background: $separator-color-light;
+    color: $separator-color;
+    pointer-events: none;
+  }
+
+  .disabled-days-style.active {
+    background-color: $theme-color-3 !important;
+    color: $separator-color;
+    pointer-events: none;
+  }
+}
+
+.dnd-loader {
+  position: absolute;
+  top: -50px;
+}
+.dnd-day-of-week {
+  width: 100%;
+  .smsCampaignAvtar.active {
+    background-color: var(--theme-color-1);
+    color: var(--theme-color-2);
+  }
+}
+
+.mobile-push-radio-btns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  div.custom-radio {
+    margin-right: 30px;
+  }
+}
+.date-time-error {
+  color: $theme-color-1;
+}
+
+.date-time-error {
+  color: $theme-color-1;
+}
+
+.icon-uploader {
+  border: 1px solid $theme-color-1;
+  background-color: $theme-color-1;
+  color: $foreground-color;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+
+.recommended-size {
+  opacity: 0.7;
+}
+
+.remove-icon {
+  color: $theme-color-1;
+}
+
+.remove-icon:hover {
+  color: $theme-color-1;
+}
+
+.channel-avatar-input {
+  input::file-selector-button {
+    width: 100px;
+  }
+}

@@ -1,0 +1,255 @@
+.user-alert {
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.userType {
+    display: inline-flex;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+.userTypeRadioButton {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.selectAudience {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.query-delete-button {
+    width: 5px;
+    height: 40px;
+    border-style: hidden;
+    margin-left: auto;
+}
+
+.filter-query-card {
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.nested-filter-button {
+    border-style: hidden;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.reset-query-filter {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.filter-query-button {
+    width: 20%;
+    margin-top: auto;
+    margin-left: 40px;
+}
+
+.attribute-buttons {
+    margin-bottom: 5px;
+    border: 2px solid lightgray;
+    padding: 10px 20px;
+    width: 200px;
+}
+
+.create-segment-button {
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    margin-right: 2px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.dropdown-button {
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+
+.query-results {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.scrolling-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+    .card {
+        flex: 0 0 auto;
+    }
+}
+
+.attribute-dropdowns {
+    width: 200px;
+    padding: 5px;
+    margin-right: 15px;
+    margin-top: 2px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.Query-dev-button {
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.and-or-button {
+    width: 70px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.type-modal {
+    margin-right: 90px;
+    display: inline;
+}
+
+.modal-dropdown {
+    display: inline;
+    margin-right: 10px;
+}
+
+.readonly-input {
+    border: transparent;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    width: 80%;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.outer-card {
+    margin-left: 50px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-right: 30px;
+    border-radius: 25px;
+    padding-bottom: 10px;
+}
+
+.count-button {
+    margin-bottom: 5px;
+}
+
+.exclude-users-checkbox {
+    margin-left: 70px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.delete-button {
+    margin-left: 780px;
+    border: hidden;
+}
+
+.arrow-right {
+    border-style: hidden;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.inline-row {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.text-heading {
+    padding-top: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.dropdown-select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.segmentHeader,
+.searchSegements {
+    .serachInput {
+        position: relative;
+        width: 25rem;
+
+        input {
+            border-radius: 20px 20px 20px 20px !important;
+            border-top-right-radius: 20px !important;
+            border-bottom-right-radius: 20px !important;
+        }
+    }
+
+    .simple-icon-magnifier {
+        font-size: 1rem;
+        position: absolute;
+        top: 30%;
+        right: 20px;
+    }
+
+}
+
+.searchSegements {
+    p {
+        font-weight: bold;
+    }
+}
+
+.nested-inner-card {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 100px;
+
+}
+
+.query-heading {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.BsChevron-button {
+    border: hidden;
+}
+
+.inline-input{
+    margin-top: '5px';
+    margin-bottom: '5px';
+}
+
+.create-event {
+    margin-top: 0.2rem;
+    color: $theme-color-1;
+    cursor: pointer;
+}

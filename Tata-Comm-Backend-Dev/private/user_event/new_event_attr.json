@@ -1,0 +1,682 @@
+[
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_BOUNCED"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_BOUNCED"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_BOUNCED"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_BOUNCED"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_CLICKED"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_CLICKED"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_CLICKED"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_CLICKED"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_COMPLAINED"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_COMPLAINED"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_COMPLAINED"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_COMPLAINED"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_DROPPED"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_DROPPED"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_DROPPED"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_DROPPED"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_OPENED"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_OPENED"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_OPENED"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_OPENED"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_SENT"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_SENT"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_SENT"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_SENT"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_SOFT_BOUNCED"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_SOFT_BOUNCED"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_SOFT_BOUNCED"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_SOFT_BOUNCED"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_UNSUBSCRIBE"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_UNSUBSCRIBE"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_UNSUBSCRIBE"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_UNSUBSCRIBE"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_UNSUBSCRIBE_DROP"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_UNSUBSCRIBE_DROP"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_UNSUBSCRIBE_DROP"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_UNSUBSCRIBE_DROP"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_VIEWED_IN_BROWSER"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_VIEWED_IN_BROWSER"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_VIEWED_IN_BROWSER"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_VIEWED_IN_BROWSER"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "SMS_DELIVERED"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "SMS_DELIVERED"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "SMS_DELIVERED"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "SMS_DELIVERED"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "SMS_SENT"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "SMS_SENT"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "SMS_SENT"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "SMS_SENT"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_CLICKED"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_CLICKED"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_CLICKED"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_CLICKED"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_DELIVERED"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_DELIVERED"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_DELIVERED"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_DELIVERED"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_DELIVERY_FAILED"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_DELIVERY_FAILED"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_DELIVERY_FAILED"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_DELIVERY_FAILED"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_READ"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_READ"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_READ"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_READ"
+    },
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_SENT"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_SENT"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_SENT"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "WHATSAPP_MESSAGE_SENT"
+    }
+]

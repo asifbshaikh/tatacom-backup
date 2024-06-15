@@ -1,0 +1,42 @@
+[
+    {
+        "name": "campaign_id",
+        "display_name": "Campaign Id",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_DELIVERED"
+    },
+    {
+        "name": "campaign_channel",
+        "display_name": "Campaign Channel",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_DELIVERED"
+    },
+    {
+        "name": "campaign_type",
+        "display_name": "Campaign Type",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_DELIVERED"
+    },
+    {
+        "name": "campaign_name",
+        "display_name": "Campaign Name",
+        "category": "Event Attributes",
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "event_name": "EMAIL_DELIVERED"
+    }
+]

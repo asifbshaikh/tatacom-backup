@@ -1,0 +1,58 @@
+// DIGO_SLIGHT_GREY - 787785 
+// DIGO_LIGHT_RED - F2D2D2 
+// DIGO_LIGHT_GREY - 9D9FA1 
+// DIGO_RED- D63548
+// DIGO_LIGHT_ORANGE - F7F1E5
+// DIGO_LIGHTEST_GREY - E8E8E8
+// DIGO_PARA_TEXT - 344857
+// DIGO_TEXT - 363636
+// DIGO_WHITE - FFFFFF
+// DIGO_BLACK - 092133
+// DIGO_ORANGE - F57C52
+// DIGO_PURPLE - 552F72
+
+$separator-color-light: #e8e8e8;
+$separator-color: #9d9fa1;
+$background-color: #f7f1e5;
+$foreground-color: #ffffff;
+$input-background: #ffffff;
+
+$dark-btn-background: #344857;
+$light-btn-background: #E8E8E8;
+$button-text-color: #ffffff;
+
+$theme-color-1: #d63548;
+$theme-color-2: #ffffff;
+$theme-color-3: #f2d2d2;
+$theme-color-4: #344857;
+$theme-color-5: #F57C52;
+$theme-color-6: #552F72;
+
+$primary-color: #363636;
+$secondary-color: #787785;
+$muted-color: #787785;
+
+$gradient-color-1: #F2D2D2;
+$gradient-color-2: #D63548;
+$gradient-color-3: #d63548;
+
+$lp-bg-color-1: #D63548;
+$lp-bg-color-2: #D63548;
+$lp-bg-color-3: #F2D2D2;
+$lp-bg-color-4: #F2D2D2;
+
+$shadow-offsets-top: 1 3 10 14 19;
+$shadow-blurs-top: 1.5 5 10 14 19;
+$shadow-opacities-top: 0.04 0.1 0.19 0.25 0.3;
+
+$shadow-offsets-bottom: 1 3 6 10 15;
+$shadow-blurs-bottom: 3 6 6 5 6;
+$shadow-opacities-bottom: 0.04 0.1 0.2 0.22 0.22;
+
+$logo-path: '/assets/logos/black.svg';
+$logo-path-mobile: '/assets/logos/mobile.svg';
+
+$lp-logo-path: '/assets/logos/white-full.svg';
+$lp-logo-path-pinned: '/assets/logos/black.svg';
+
+@import '../main.scss';

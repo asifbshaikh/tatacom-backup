@@ -1,0 +1,88 @@
+.page-background {
+    background-color: $background-color;
+}
+
+.radio-select-background {
+    background-color: $background-color;
+}
+
+.toggle-background {
+    background-color: $background-color;
+    border-radius: 0.5rem;
+}
+
+.control-upload-container {
+    display: flex;
+    flex: 3;
+    align-content: left;
+    width: auto;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+
+.random {
+    width: 25%;
+}
+
+.status-toggler {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    color: $primary-color;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    & > i {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .control-group1 {
+    display: flex;
+  };
+  
+  .control-group2 {
+    background-color: var(--theme-color-2);
+    border-radius: 2px;
+  };
+
+  .control-group3 {
+    flex-direction: column;
+    margin: 2% 15% 2% 8%;
+    width: 60%;
+  };
+
+  .control-tabContent {
+    margin: 1% 0 0 0;
+  };
+
+  .control-tabStyle {
+    @include flexTypeCss;
+    flex-wrap: wrap;
+    width: fit-content;
+    box-shadow: 0 8px 13px -7px var(--separator-color);
+    background-color: var(--theme-color-2);
+    border-radius: 25px;
+    justify-content: space-evenly;
+    border: 1 px solid var(--theme-color-1);
+    gap: 5px;
+  };
+
+  .control-button-pointer-cursor {
+    cursor: pointer;
+  }
+  
+  .controlTableStyle {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    gap: 0px;
+    height: 50%;
+  };
+  
+  .controlTableSegmentStyle {
+    border: 1px solid var(--separator-color);
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+  };

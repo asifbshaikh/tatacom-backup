@@ -1,0 +1,22 @@
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+  <h2>Subject: Import failed - Error details inside</h2>
+  <p>Dear <%= @username %>,</p>
+  <p>It is to inform you that your recent import encountered an error and could not be completed successfully. Below are the error details.</p>
+  <p>Error Message: <%if @error_message.any? %></p>
+  <ul>
+    <% @error_message.each do |error_msg| %>
+      <li><%= error_msg %></li>
+      <%end%>
+  </ul>
+  <%else%>
+  <p>No errors were encountered during import </p>
+  <%end%>
+  <p>Import Date: <%= @date %></p>
+  <p>Please review and rectify the errors.</p>
+  <p>Thank you</p>
+</body>
+</html>

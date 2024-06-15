@@ -1,0 +1,227 @@
+.title-of-cards {
+  margin-right: 60px;
+  margin-left: 20px;
+}
+
+.pre-built-template-heading {
+  margin-top: 60px;
+}
+
+.template-card-content {
+  width: 150px;
+  height: 150px;
+  border: 1px dotted $muted-color;
+  position: relative;
+  margin: 30px 10px 20px 10px;
+  transition: border-color 0.3s ease;
+  background-color: $theme-color-2;
+}
+
+.template-card-content:hover {
+  background-color: $separator-color;
+}
+
+.template-card-button {
+  position: relative;
+  bottom: 16px;
+  top: 40px;
+  left: 25px;
+  display: none;
+  padding: 2px 4px;
+  border: none;
+  border-radius: 5px;
+  background-color: $primary-color;
+  color: $theme-color-2;
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  z-index: 1;
+}
+
+.template-card-content:hover .template-card-button {
+  display: block;
+
+}
+
+.template-text {
+  color: $separator-color;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.html-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 30px 70px 20px 50px;
+  border: 1px dotted $separator-color;
+  border-radius: 8px;
+  background-color: $theme-color-2;
+  box-shadow: 0px 2px 4px $primary-color;
+  transition: background-color 0.3s ease;
+}
+
+.html-card.hover {
+  background-color: $separator-color;
+  color: $theme-color-2;
+}
+
+.html-button {
+  display: none;
+  position: absolute;
+  background: $primary-color;
+  color: $theme-color-2;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+.html-card:hover .html-button {
+  display: block;
+}
+
+.outside-div:hover {
+  background-color: $separator-color;
+}
+
+
+.delete-button {
+  border: none;
+  background-color: $background-color;
+}
+
+.radio-button-group {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+
+.attachment-options {
+  margin-top: 60px;
+}
+
+.email-details {
+  margin: 20px 60px 40px 0px;
+}
+
+.sender-email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-delete-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.email-btn {
+  background: transparent;
+  border: none;
+}
+
+.search-input {
+  width: 30%;
+  margin-left: 670px;
+}
+
+.template-align {
+  text-align: center;
+}
+
+.custom-dropdown-button {
+  border: none;
+  border-radius: 0;
+}
+
+.horizontal-scrollbar {
+  overflow: hidden;
+}
+
+.overflow-x-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+.template-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.template-grid > div {
+  width: calc(25% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.template-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.templateView {
+  margin-bottom: 20px;
+  padding: 10px; 
+  position: relative;
+  overflow: hidden;
+}
+
+.content{
+  height: 250px;
+  overflow: hidden;
+}
+
+.templateView:hover .content{
+  background-color: $separator-color;
+  filter: blur(5px);
+}
+
+.templateView .button{
+position: relative;
+z-index: 1;
+top: 50%;
+}
+
+.templateView .button .template-card-button1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out visibility 0s linear 0.3s;
+  padding: 2px 4px;
+  border: none;
+  border-radius: 5px;
+  background-color: $primary-color;
+  color: $theme-color-2;
+  width: 90px;
+  height: 30px;
+  z-index: 1;
+}
+
+.templateView:hover .template-card-button1{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+.template-name {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.templateView:hover .content * {
+  pointer-events: none;
+}

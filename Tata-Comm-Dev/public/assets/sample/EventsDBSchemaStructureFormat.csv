@@ -1,0 +1,10 @@
+Column Name,Datatype,Default
+name,string,not null
+displayed_name,string,not null
+data_type,string,not null
+category,string,null
+description,text,null
+event_attribute,string,null
+event_attribute_value,string,null
+customer_id,string,not null
+updated_at,datetime,not null

@@ -1,0 +1,316 @@
+[
+  {
+    "name": "APP_EXIT",
+    "displayed_name": "App Exit",
+    "description": "Tracked whenever App goes to background.",
+    "category": "Lifecycle",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "USER_LOGOUT",
+    "displayed_name": "User Logout",
+    "description": "Tracked when a user Logs out of the app/site or user reset.",
+    "category": "Lifecycle",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "PUSH_ID_REGISTER_ANDROID",
+    "displayed_name": "Push ID Register Android",
+    "description": "Tracked when the Engage 3.0 system registers the push id for Android devices. Attribute registered_by has the status. ",
+    "category": "Lifecycle",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "CLOSED_WEB_PUSH_SOFT-ASK",
+    "displayed_name": "Closed Web Push Soft-ask",
+    "description": "Tracked when a user closes the Push Permission Soft-ask on your website as part of the 2-step Push Opt-in mechanism.",
+    "category": "Lifecycle",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "DENIED_WEB_PUSH_SUBSCRIPTION",
+    "displayed_name": "Denied Web Push Subscription",
+    "description": "Tracked when a user denies receiving push notifications on the Web.",
+    "category": "Reachability",
+    "source": [
+      "WEB"
+    ]
+  },
+  {
+    "name": "OVERLAY_CLICKED_IN_1-CLICK_HTTP_SUBSCRIPTION",
+    "displayed_name": "Overlay clicked in 1-click HTTP subscription",
+    "description": "Tracked when a user clicks a Subscription Message on your website as part of the HTTP Push Subscription flow.",
+    "category": "Reachability",
+    "source": [
+      "WEB"
+    ]
+  },
+  {
+    "name": "OVERLAY_SHOWN_IN_1-CLICK_HTTP_SUBSCRIPTION",
+    "displayed_name": "Overlay shown in 1-click HTTP subscription",
+    "description": "Tracked when a user views a Subscription Message on your website as part of the HTTP Push Subscription flow.",
+    "category": "Reachability",
+    "source": [
+      "WEB"
+    ]
+  },
+  {
+    "name": "REACHABILITY_PUSH_ANDROID",
+    "displayed_name": "Reachability Push Android",
+    "description": "Reachability Push Android is True (200) when the user is reachable on at least one android device.",
+    "category": "Reachability",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "REACHABILITY_PUSH_IOS",
+    "displayed_name": "Reachability Push iOS",
+    "description": "Reachability Push iOS is True (200) when the user is reachable on at least one iOS device.",
+    "category": "Reachability",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "REACHABILITY_PUSH_WEB",
+    "displayed_name": "Reachability Push Web",
+    "description": "Reachability Push Web is True (200) when the user is reachable on at least one web device.",
+    "category": "Reachability",
+    "source": [
+      "WEB"
+    ]
+  },
+  {
+    "name": "UNSUBSCRIBED_FROM_WEB_PUSH",
+    "displayed_name": "Unsubscribed from Web Push",
+    "description": "Tracked when a user directly unsubscribes from the website/chrome settings or GCM communicates that a push token is invalid.",
+    "category": "Reachability",
+    "source": [
+      "WEB"
+    ]
+  },
+  {
+    "name": "CONNECTOR_SENT",
+    "displayed_name": "Connector Sent",
+    "description": "Tracked when a connector was sent successfully.",
+    "category": "Reachability",
+    "source": [
+      "CONNECTOR"
+    ]
+  },
+  {
+    "name": "EMAIL_SOFT_BOUNCED",
+    "displayed_name": "Email Soft Bounced",
+    "description": "Tracked when our system finds an email is soft-bounced. Typically happens when there is a temporary delivery issue. This is tracked uniquely for every user based on the user ID.",
+    "category": "Campaign Activity",
+    "source": [
+      "EMAIL"
+    ]
+  },
+  {
+    "name": "GOOGLE_ADS_AUDIENCE_SYNCED",
+    "displayed_name": "Google Ads Audience Synced",
+    "description": "Tracked when the Google Ads API returns a 2xx response for add or delete request to an audience.",
+    "category": "Campaign Activity",
+    "source": [
+      "GOOGLE_ADS_AUDIENCE"
+    ]
+  },
+  {
+    "name": "IN_APP_CLICKED_ANDROID",
+    "displayed_name": "In-App Clicked Android",
+    "description": "Tracked when a user clicks In-App message on Android device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "IN_APP_CLICKED_IOS",
+    "displayed_name": "In-App Clicked iOS",
+    "description": "Tracked when a user clicks In-App message on iOS device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "IN_APP_CLICKED_WINDOWS",
+    "displayed_name": "In-App Clicked Windows",
+    "description": "Tracked when a user clicks In-App message on Windows device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK",
+      "WINDOWS"
+    ]
+  },
+  {
+    "name": "IN_APP_CLOSED_ANDROID",
+    "displayed_name": "In-App Closed Android",
+    "description": "Tracked when a user dismisses In-App message by clicking on the close button on an Android device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK",
+      "ANDROID"
+    ]
+  },
+  {
+    "name": "IN_APP_CLOSED_IOS",
+    "displayed_name": "In-App Closed iOS",
+    "description": "Tracked when a user dismisses In-App message by clicking on the close button on an iOS device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "IN_APP_CLOSED_WINDOWS",
+    "displayed_name": "In-App Closed Windows",
+    "description": "Tracked when a user dismisses In-App message by clicking on the close button on an Windows device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK",
+      "WINDOWS"
+    ]
+  },
+  {
+    "name": "IN_APP_SHOWN_WINDOWS",
+    "displayed_name": "In-App Shown Windows",
+    "description": "Tracked when an In-App message is shown to the user on a Windows device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK",
+      "WINDOWS"
+    ]
+  },
+  {
+    "name": "IN_APP_SHOWN_ANDROID",
+    "displayed_name": "In-App Shown Android",
+    "description": "Tracked when an In-App message is shown to the user on a Android device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "IN_APP_SHOWN_IOS",
+    "displayed_name": "In-App Shown iOS",
+    "description": "Tracked when an In-App message is shown to the user on a iOS device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "NOTIFICATION_CLICKED_WEB",
+    "displayed_name": "Notification Clicked Web",
+    "description": "Tracked when a user clicks notification on the browser.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK",
+      "WEB"
+    ]
+  },
+  {
+    "name": "NOTIFICATION_DISMISSED_IOS",
+    "displayed_name": "Notification Dismissed iOS",
+    "description": "Tracked when the user dismisses the notification on iOS device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK",
+      "WEB"
+    ]
+  },
+  {
+    "name": "NOTIFICATION_RECEIVED_IOS_APP_ACTIVE",
+    "displayed_name": "Notification Received iOS App Active",
+    "description": "Tracked when App in foreground and user receives the notification on iOS.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "NOTIFICATION_RECEIVED_WEB",
+    "displayed_name": "Notification Received Web",
+    "description": "Tracked when a user receives a notification on a browser.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK",
+      "WEB"
+    ]
+  },
+  {
+    "name": "NOTIFICATION_SENT_WINDOWS",
+    "displayed_name": "Notification Sent Windows",
+    "description": "Tracked when a user receives a notification on a Windows device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "NOTIFICATION_SENT_IOS",
+    "displayed_name": "Notification Sent iOS",
+    "description": "Tracked when a user receives a notification on an iOS device.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "NOTIFICATION_SWIPED_WINDOWS",
+    "displayed_name": "Notification Swiped Android",
+    "description": "Tracked when a notification is dismissed by the user with a swipe gesture on Android.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "WEB_PERSONALIZATION_MESSAGE_CLOSED",
+    "displayed_name": "Web Personalization Message Closed",
+    "description": "Tracked when a web personalization campaign is closed by a user.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK",
+      "WEB"
+    ]
+  },
+  {
+    "name": "SMS_SENT",
+    "displayed_name": "SMS Sent",
+    "description": "Tracked when our system sends SMS to a user.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "WHATSAPP_MESSAGE_DELIVERED",
+    "displayed_name": "WhatsApp Message Delivered",
+    "description": "Tracked when a WhatsApp Message is delivered to a user.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  },
+  {
+    "name": "WHATSAPP_MESSAGE_SENT",
+    "displayed_name": "WhatsApp Message Sent",
+    "description": "Tracked when a WhatsApp message is sent to a user.",
+    "category": "Campaign Activity",
+    "source": [
+      "SDK"
+    ]
+  }
+]

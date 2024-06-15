@@ -1,0 +1,83 @@
+.select-source-campaigncardrow {
+  justify-content: center;
+  .select-source-campaigncardcontent {
+    background-color: var(--theme-color-2);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .select-source-iconsize {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .select-source-campaigncardrow {
+    .select-source-campaigncardcontent {
+      flex-wrap: wrap;
+    }
+  }
+}
+.folder-label {
+  font-weight: 800;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+.map-attribute-select {
+  width: 40%;
+  margin-right: 15px;
+  margin-top: 2px;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.attribute-row{
+  display: flex;
+  justify-content: center;
+}
+
+.map-table {
+  border-color:#9d9fa1
+}
+
+.bottom-buttons {
+  display: flex;  
+  justify-content: flex-end; 
+}
+
+.reset-btn {
+  width: 9%; 
+}
+
+.list-link {
+  padding: 0;
+  cursor: pointer;
+}
+
+.info-card-height-style {
+  min-height: 230px;
+
+  .card-body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.actionButtons {
+  justify-content: flex-end;
+}
+
+.text-box {
+    padding-right: 0;
+  }
+
+.info-icon {
+  color: $error-color;
+  margin-top: 5px;
+}
+
+.email-action-buttons{
+  .disabled{
+    cursor: default;
+  }
+}

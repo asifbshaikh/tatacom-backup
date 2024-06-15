@@ -1,0 +1,25 @@
+[Unit]
+Requires=network.target
+PartOf=engage.target
+
+[Service]
+Type=simple
+User=engage
+WorkingDirectory=/home/engage/Engage-3-Backend
+
+ExecStart=/bin/bash -lc 'bundle exec sidekiq -C config/sidekiq.yml'
+
+Restart=always
+RestartSec=1
+TimeoutStopSec=30
+KillMode=mixed
+StandardInput=null
+SyslogIdentifier=%p
+
+Environment="PATH=/home/engage/.rvm/gems/ruby-3.2.2/bin:/home/engage/.rvm/gems/ruby-3.2.2@global/bin:/home/engage/.rvm/rubies/ruby-3.2.2/bin:/home/engage/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/home/engage/.rvm/bin:/home/engage/.rvm/bin"
+Environment="PORT=3050"
+Environment="RAILS_ENV=production"
+Environment="NODE_ENV=production"
+Environment="RAILS_LOG_TO_STDOUT=false
+Environment="GEM_HOME=/home/engage/.rvm/gems/ruby-3.2.2"
+Environment="GEM_PATH=/home/engage/.rvm/gems/ruby-3.2.2:/home/engage/.rvm/gems/ruby-3.2.2@global"

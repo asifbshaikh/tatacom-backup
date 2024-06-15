@@ -1,0 +1,43 @@
+.required-star-mark {
+  color: $theme-color-1;
+}
+.form-group {
+  .rti--container {
+    border-radius: 0.1rem;
+    border: 1px solid $separator-color;
+    &:focus-within,
+    &:focus {
+      border-color: rgba($theme-color-1, 0.6);
+      box-shadow: initial;
+    }
+    .rti--input {
+      width: 100%;
+    }
+    .rti--tag {
+      background: transparent;
+      border: 1px solid $separator-color;
+      border-radius: 2px;
+      margin: 2px;
+    }
+  }
+}
+.btn-mw-200 {
+  max-width: 200px;
+}
+.xs-small-tumbnail {
+  height: 30px !important;
+  .list-thumbnail-letters {
+    height: 30px !important;
+    width: 30px !important;
+    font-size: 12px;
+  }
+}
+.de-table-cell-content-middle {
+  th,
+  td {
+    vertical-align: middle !important;
+  }
+}
+.de-checkbox-table-cell {
+  width: 4rem;
+}

@@ -1,0 +1,1851 @@
+[
+    {
+        "id": 2,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 1,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:31.617Z",
+        "updated_at": "2023-09-06T12:36:31.617Z",
+        "event_name": "APP_OPENED"
+    },
+    {
+        "id": 3,
+        "name": "device_model",
+        "display_name": "Device Model",
+        "category": "Event Attributes",
+        "common_event_id": 1,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:31.823Z",
+        "updated_at": "2023-09-06T12:36:31.823Z",
+        "event_name": "APP_OPENED"
+    },
+    {
+        "id": 4,
+        "name": "network_type",
+        "display_name": "Network Type",
+        "category": "Event Attributes",
+        "common_event_id": 1,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:32.025Z",
+        "updated_at": "2023-09-06T12:36:32.025Z",
+        "event_name": "APP_OPENED"
+    },
+    {
+        "id": 5,
+        "name": "os_version",
+        "display_name": "OS Version",
+        "category": "Event Attributes",
+        "common_event_id": 1,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:32.228Z",
+        "updated_at": "2023-09-06T12:36:32.228Z",
+        "event_name": "APP_OPENED"
+    },
+    {
+        "id": 6,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 1,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:32.435Z",
+        "updated_at": "2023-09-06T12:36:32.435Z",
+        "event_name": "APP_OPENED"
+    },
+    {
+        "id": 7,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 1,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:32.641Z",
+        "updated_at": "2023-09-06T12:36:32.641Z",
+        "event_name": "APP_OPENED"
+    },
+    {
+        "id": 8,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 1,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:32.850Z",
+        "updated_at": "2023-09-06T12:36:32.850Z",
+        "event_name": "APP_OPENED"
+    },
+    {
+        "id": 11,
+        "name": "logged_in_status",
+        "display_name": "logged_in_status",
+        "category": "Event Attributes",
+        "common_event_id": 1,
+        "values": [],
+        "data_types": [
+            "bool"
+        ],
+        "created_at": "2023-09-06T12:36:33.467Z",
+        "updated_at": "2023-09-06T12:36:33.467Z",
+        "event_name": "APP_OPENED"
+    },
+    {
+        "id": 12,
+        "name": "utm_campaign",
+        "display_name": "utm_campaign",
+        "category": "Event Attributes",
+        "common_event_id": 1,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:33.677Z",
+        "updated_at": "2023-09-06T12:36:33.677Z",
+        "event_name": "APP_OPENED"
+    },
+    {
+        "id": 13,
+        "name": "utm_content",
+        "display_name": "utm_content",
+        "category": "Event Attributes",
+        "common_event_id": 1,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:33.874Z",
+        "updated_at": "2023-09-06T12:36:33.874Z",
+        "event_name": "APP_OPENED"
+    },
+    {
+        "id": 14,
+        "name": "utm_medium",
+        "display_name": "utm_medium",
+        "category": "Event Attributes",
+        "common_event_id": 1,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:34.073Z",
+        "updated_at": "2023-09-06T12:36:34.073Z",
+        "event_name": "APP_OPENED"
+    },
+    {
+        "id": 16,
+        "name": "device_model",
+        "display_name": "Device Model",
+        "category": "Event Attributes",
+        "common_event_id": 2,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:34.482Z",
+        "updated_at": "2023-09-06T12:36:34.482Z",
+        "event_name": "LOGOUT"
+    },
+    {
+        "id": 17,
+        "name": "os_version",
+        "display_name": "OS Version",
+        "category": "Event Attributes",
+        "common_event_id": 2,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:34.684Z",
+        "updated_at": "2023-09-06T12:36:34.684Z",
+        "event_name": "LOGOUT"
+    },
+    {
+        "id": 18,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 2,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:34.880Z",
+        "updated_at": "2023-09-06T12:36:34.880Z",
+        "event_name": "LOGOUT"
+    },
+    {
+        "id": 22,
+        "name": "logged_in_status",
+        "display_name": "logged_in_status",
+        "category": "Event Attributes",
+        "common_event_id": 2,
+        "values": [],
+        "data_types": [
+            "bool"
+        ],
+        "created_at": "2023-09-06T12:36:35.684Z",
+        "updated_at": "2023-09-06T12:36:35.684Z",
+        "event_name": "LOGOUT"
+    },
+    {
+        "id": 24,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 2,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:36.081Z",
+        "updated_at": "2023-09-06T12:36:36.081Z",
+        "event_name": "LOGOUT"
+    },
+    {
+        "id": 25,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 2,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:36.280Z",
+        "updated_at": "2023-09-06T12:36:36.280Z",
+        "event_name": "LOGOUT"
+    },
+    {
+        "id": 26,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 2,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:36.484Z",
+        "updated_at": "2023-09-06T12:36:36.484Z",
+        "event_name": "LOGOUT"
+    },
+    {
+        "id": 28,
+        "name": "device_model",
+        "display_name": "Device Model",
+        "category": "Event Attributes",
+        "common_event_id": 3,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:36.886Z",
+        "updated_at": "2023-09-06T12:36:36.886Z",
+        "event_name": "PAGE_VIEWED"
+    },
+    {
+        "id": 29,
+        "name": "os_version",
+        "display_name": "OS Version",
+        "category": "Event Attributes",
+        "common_event_id": 3,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:37.093Z",
+        "updated_at": "2023-09-06T12:36:37.093Z",
+        "event_name": "PAGE_VIEWED"
+    },
+    {
+        "id": 31,
+        "name": "logged_in_status",
+        "display_name": "logged_in_status",
+        "category": "Event Attributes",
+        "common_event_id": 3,
+        "values": [],
+        "data_types": [
+            "bool"
+        ],
+        "created_at": "2023-09-06T12:36:37.505Z",
+        "updated_at": "2023-09-06T12:36:37.505Z",
+        "event_name": "PAGE_VIEWED"
+    },
+    {
+        "id": 32,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 3,
+        "values": [],
+        "data_types": [
+            "array_string",
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:37.705Z",
+        "updated_at": "2023-09-06T12:36:37.705Z",
+        "event_name": "PAGE_VIEWED"
+    },
+    {
+        "id": 33,
+        "name": "utm_campaign",
+        "display_name": "utm_campaign",
+        "category": "Event Attributes",
+        "common_event_id": 3,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:37.903Z",
+        "updated_at": "2023-09-06T12:36:37.903Z",
+        "event_name": "PAGE_VIEWED"
+    },
+    {
+        "id": 34,
+        "name": "utm_content",
+        "display_name": "utm_content",
+        "category": "Event Attributes",
+        "common_event_id": 3,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:38.101Z",
+        "updated_at": "2023-09-06T12:36:38.101Z",
+        "event_name": "PAGE_VIEWED"
+    },
+    {
+        "id": 35,
+        "name": "utm_medium",
+        "display_name": "utm_medium",
+        "category": "Event Attributes",
+        "common_event_id": 3,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:38.297Z",
+        "updated_at": "2023-09-06T12:36:38.297Z",
+        "event_name": "PAGE_VIEWED"
+    },
+    {
+        "id": 37,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 3,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:38.694Z",
+        "updated_at": "2023-09-06T12:36:38.694Z",
+        "event_name": "PAGE_VIEWED"
+    },
+    {
+        "id": 38,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 3,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:38.894Z",
+        "updated_at": "2023-09-06T12:36:38.894Z",
+        "event_name": "PAGE_VIEWED"
+    },
+    {
+        "id": 39,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 3,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:39.091Z",
+        "updated_at": "2023-09-06T12:36:39.091Z",
+        "event_name": "PAGE_VIEWED"
+    },
+    {
+        "id": 45,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 4,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:40.312Z",
+        "updated_at": "2023-09-06T12:36:40.312Z",
+        "event_name": "USER_MERGED"
+    },
+    {
+        "id": 46,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 4,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:40.510Z",
+        "updated_at": "2023-09-06T12:36:40.510Z",
+        "event_name": "USER_MERGED"
+    },
+    {
+        "id": 47,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 4,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:40.709Z",
+        "updated_at": "2023-09-06T12:36:40.709Z",
+        "event_name": "USER_MERGED"
+    },
+    {
+        "id": 51,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 5,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:41.508Z",
+        "updated_at": "2023-09-06T12:36:41.508Z",
+        "event_name": "UPDATE"
+    },
+    {
+        "id": 52,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 5,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:41.707Z",
+        "updated_at": "2023-09-06T12:36:41.707Z",
+        "event_name": "UPDATE"
+    },
+    {
+        "id": 53,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 5,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:41.907Z",
+        "updated_at": "2023-09-06T12:36:41.907Z",
+        "event_name": "UPDATE"
+    },
+    {
+        "id": 54,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 5,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:42.111Z",
+        "updated_at": "2023-09-06T12:36:42.111Z",
+        "event_name": "UPDATE"
+    },
+    {
+        "id": 57,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 6,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:42.709Z",
+        "updated_at": "2023-09-06T12:36:42.709Z",
+        "event_name": "INSTALL"
+    },
+    {
+        "id": 59,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 6,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:43.100Z",
+        "updated_at": "2023-09-06T12:36:43.100Z",
+        "event_name": "INSTALL"
+    },
+    {
+        "id": 60,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 6,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:43.296Z",
+        "updated_at": "2023-09-06T12:36:43.296Z",
+        "event_name": "INSTALL"
+    },
+    {
+        "id": 61,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 6,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:43.502Z",
+        "updated_at": "2023-09-06T12:36:43.502Z",
+        "event_name": "INSTALL"
+    },
+    {
+        "id": 83,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 7,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:47.881Z",
+        "updated_at": "2023-09-06T12:36:47.881Z",
+        "event_name": "Device Uninstall"
+    },
+    {
+        "id": 84,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 7,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:48.087Z",
+        "updated_at": "2023-09-06T12:36:48.087Z",
+        "event_name": "Device Uninstall"
+    },
+    {
+        "id": 85,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 7,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:48.287Z",
+        "updated_at": "2023-09-06T12:36:48.287Z",
+        "event_name": "Device Uninstall"
+    },
+    {
+        "id": 89,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 8,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:49.105Z",
+        "updated_at": "2023-09-06T12:36:49.105Z",
+        "event_name": "USER_REINSTALL"
+    },
+    {
+        "id": 90,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 8,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:49.303Z",
+        "updated_at": "2023-09-06T12:36:49.303Z",
+        "event_name": "USER_REINSTALL"
+    },
+    {
+        "id": 91,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 8,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:49.498Z",
+        "updated_at": "2023-09-06T12:36:49.498Z",
+        "event_name": "USER_REINSTALL"
+    },
+    {
+        "id": 92,
+        "name": "device_model",
+        "display_name": "Device Model",
+        "category": "Event Attributes",
+        "common_event_id": 9,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:49.694Z",
+        "updated_at": "2023-09-06T12:36:49.694Z",
+        "event_name": "REINSTALL"
+    },
+    {
+        "id": 93,
+        "name": "os_version",
+        "display_name": "OS Version",
+        "category": "Event Attributes",
+        "common_event_id": 9,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:49.897Z",
+        "updated_at": "2023-09-06T12:36:49.897Z",
+        "event_name": "REINSTALL"
+    },
+    {
+        "id": 94,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 9,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:50.094Z",
+        "updated_at": "2023-09-06T12:36:50.094Z",
+        "event_name": "REINSTALL"
+    },
+    {
+        "id": 99,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 9,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:51.084Z",
+        "updated_at": "2023-09-06T12:36:51.084Z",
+        "event_name": "REINSTALL"
+    },
+    {
+        "id": 100,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 9,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:51.280Z",
+        "updated_at": "2023-09-06T12:36:51.280Z",
+        "event_name": "REINSTALL"
+    },
+    {
+        "id": 101,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 9,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:51.484Z",
+        "updated_at": "2023-09-06T12:36:51.484Z",
+        "event_name": "REINSTALL"
+    },
+    {
+        "id": 103,
+        "name": "device_model",
+        "display_name": "Device Model",
+        "category": "Event Attributes",
+        "common_event_id": 10,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:51.883Z",
+        "updated_at": "2023-09-06T12:36:51.883Z",
+        "event_name": "OPT_IN_BLOCKED"
+    },
+    {
+        "id": 104,
+        "name": "os_version",
+        "display_name": "OS Version",
+        "category": "Event Attributes",
+        "common_event_id": 10,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:52.085Z",
+        "updated_at": "2023-09-06T12:36:52.085Z",
+        "event_name": "OPT_IN_BLOCKED"
+    },
+    {
+        "id": 106,
+        "name": "logged_in_status",
+        "display_name": "logged_in_status",
+        "category": "Event Attributes",
+        "common_event_id": 10,
+        "values": [],
+        "data_types": [
+            "bool"
+        ],
+        "created_at": "2023-09-06T12:36:52.477Z",
+        "updated_at": "2023-09-06T12:36:52.477Z",
+        "event_name": "OPT_IN_BLOCKED"
+    },
+    {
+        "id": 107,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 10,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:52.678Z",
+        "updated_at": "2023-09-06T12:36:52.678Z",
+        "event_name": "OPT_IN_BLOCKED"
+    },
+    {
+        "id": 108,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 10,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:52.874Z",
+        "updated_at": "2023-09-06T12:36:52.874Z",
+        "event_name": "OPT_IN_BLOCKED"
+    },
+    {
+        "id": 109,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 10,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:53.077Z",
+        "updated_at": "2023-09-06T12:36:53.077Z",
+        "event_name": "OPT_IN_BLOCKED"
+    },
+    {
+        "id": 110,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 10,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:53.274Z",
+        "updated_at": "2023-09-06T12:36:53.274Z",
+        "event_name": "OPT_IN_BLOCKED"
+    },
+    {
+        "id": 113,
+        "name": "logged_in_status",
+        "display_name": "logged_in_status",
+        "category": "Event Attributes",
+        "common_event_id": 11,
+        "values": [],
+        "data_types": [
+            "bool"
+        ],
+        "created_at": "2023-09-06T12:36:53.881Z",
+        "updated_at": "2023-09-06T12:36:53.881Z",
+        "event_name": "WEB_OPTIN_ACCEPTED"
+    },
+    {
+        "id": 114,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 11,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:54.081Z",
+        "updated_at": "2023-09-06T12:36:54.081Z",
+        "event_name": "WEB_OPTIN_ACCEPTED"
+    },
+    {
+        "id": 115,
+        "name": "utm_campaign",
+        "display_name": "utm_campaign",
+        "category": "Event Attributes",
+        "common_event_id": 11,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:54.280Z",
+        "updated_at": "2023-09-06T12:36:54.280Z",
+        "event_name": "WEB_OPTIN_ACCEPTED"
+    },
+    {
+        "id": 116,
+        "name": "utm_content",
+        "display_name": "utm_content",
+        "category": "Event Attributes",
+        "common_event_id": 11,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:54.477Z",
+        "updated_at": "2023-09-06T12:36:54.477Z",
+        "event_name": "WEB_OPTIN_ACCEPTED"
+    },
+    {
+        "id": 117,
+        "name": "utm_medium",
+        "display_name": "utm_medium",
+        "category": "Event Attributes",
+        "common_event_id": 11,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:54.687Z",
+        "updated_at": "2023-09-06T12:36:54.687Z",
+        "event_name": "WEB_OPTIN_ACCEPTED"
+    },
+    {
+        "id": 118,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 11,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:54.888Z",
+        "updated_at": "2023-09-06T12:36:54.888Z",
+        "event_name": "WEB_OPTIN_ACCEPTED"
+    },
+    {
+        "id": 119,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 11,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:55.089Z",
+        "updated_at": "2023-09-06T12:36:55.089Z",
+        "event_name": "WEB_OPTIN_ACCEPTED"
+    },
+    {
+        "id": 120,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 11,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:55.291Z",
+        "updated_at": "2023-09-06T12:36:55.291Z",
+        "event_name": "WEB_OPTIN_ACCEPTED"
+    },
+    {
+        "id": 121,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 17,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:55.493Z",
+        "updated_at": "2023-09-06T12:36:55.493Z",
+        "event_name": "CARD_INBOX_CLICKED"
+    },
+    {
+        "id": 122,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 17,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:55.695Z",
+        "updated_at": "2023-09-06T12:36:55.695Z",
+        "event_name": "CARD_INBOX_CLICKED"
+    },
+    {
+        "id": 123,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 17,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:55.902Z",
+        "updated_at": "2023-09-06T12:36:55.902Z",
+        "event_name": "CARD_INBOX_CLICKED"
+    },
+    {
+        "id": 124,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 17,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:56.102Z",
+        "updated_at": "2023-09-06T12:36:56.102Z",
+        "event_name": "CARD_INBOX_CLICKED"
+    },
+    {
+        "id": 129,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 32,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:57.110Z",
+        "updated_at": "2023-09-06T12:36:57.110Z",
+        "event_name": "IN_APP_DISMISSED"
+    },
+    {
+        "id": 130,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 32,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:57.309Z",
+        "updated_at": "2023-09-06T12:36:57.309Z",
+        "event_name": "IN_APP_DISMISSED"
+    },
+    {
+        "id": 131,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 32,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:57.508Z",
+        "updated_at": "2023-09-06T12:36:57.508Z",
+        "event_name": "IN_APP_DISMISSED"
+    },
+    {
+        "id": 132,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 32,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:57.705Z",
+        "updated_at": "2023-09-06T12:36:57.705Z",
+        "event_name": "IN_APP_DISMISSED"
+    },
+    {
+        "id": 135,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 33,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:58.326Z",
+        "updated_at": "2023-09-06T12:36:58.326Z",
+        "event_name": "IN_APP_SHOWN"
+    },
+    {
+        "id": 136,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 33,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:58.545Z",
+        "updated_at": "2023-09-06T12:36:58.545Z",
+        "event_name": "IN_APP_SHOWN"
+    },
+    {
+        "id": 137,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 33,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:58.745Z",
+        "updated_at": "2023-09-06T12:36:58.745Z",
+        "event_name": "IN_APP_SHOWN"
+    },
+    {
+        "id": 138,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 33,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:58.944Z",
+        "updated_at": "2023-09-06T12:36:58.944Z",
+        "event_name": "IN_APP_SHOWN"
+    },
+    {
+        "id": 143,
+        "name": "device_model",
+        "display_name": "Device Model",
+        "category": "Event Attributes",
+        "common_event_id": 34,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:36:59.945Z",
+        "updated_at": "2023-09-06T12:36:59.945Z",
+        "event_name": "ONSITE_MESSAGE_AUTO_DISMISS"
+    },
+    {
+        "id": 144,
+        "name": "os_version",
+        "display_name": "OS Version",
+        "category": "Event Attributes",
+        "common_event_id": 34,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:00.142Z",
+        "updated_at": "2023-09-06T12:37:00.142Z",
+        "event_name": "ONSITE_MESSAGE_AUTO_DISMISS"
+    },
+    {
+        "id": 148,
+        "name": "logged_in_status",
+        "display_name": "logged_in_status",
+        "category": "Event Attributes",
+        "common_event_id": 34,
+        "values": [],
+        "data_types": [
+            "bool"
+        ],
+        "created_at": "2023-09-06T12:37:00.940Z",
+        "updated_at": "2023-09-06T12:37:00.940Z",
+        "event_name": "ONSITE_MESSAGE_AUTO_DISMISS"
+    },
+    {
+        "id": 149,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 34,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:01.136Z",
+        "updated_at": "2023-09-06T12:37:01.136Z",
+        "event_name": "ONSITE_MESSAGE_AUTO_DISMISS"
+    },
+    {
+        "id": 150,
+        "name": "utm_campaign",
+        "display_name": "utm_campaign",
+        "category": "Event Attributes",
+        "common_event_id": 34,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:01.352Z",
+        "updated_at": "2023-09-06T12:37:01.352Z",
+        "event_name": "ONSITE_MESSAGE_AUTO_DISMISS"
+    },
+    {
+        "id": 151,
+        "name": "utm_content",
+        "display_name": "utm_content",
+        "category": "Event Attributes",
+        "common_event_id": 34,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:01.554Z",
+        "updated_at": "2023-09-06T12:37:01.554Z",
+        "event_name": "ONSITE_MESSAGE_AUTO_DISMISS"
+    },
+    {
+        "id": 152,
+        "name": "utm_medium",
+        "display_name": "utm_medium",
+        "category": "Event Attributes",
+        "common_event_id": 34,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:01.751Z",
+        "updated_at": "2023-09-06T12:37:01.751Z",
+        "event_name": "ONSITE_MESSAGE_AUTO_DISMISS"
+    },
+    {
+        "id": 155,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 34,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:02.354Z",
+        "updated_at": "2023-09-06T12:37:02.354Z",
+        "event_name": "ONSITE_MESSAGE_AUTO_DISMISS"
+    },
+    {
+        "id": 156,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 34,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:02.561Z",
+        "updated_at": "2023-09-06T12:37:02.561Z",
+        "event_name": "ONSITE_MESSAGE_AUTO_DISMISS"
+    },
+    {
+        "id": 157,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 34,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:02.760Z",
+        "updated_at": "2023-09-06T12:37:02.760Z",
+        "event_name": "ONSITE_MESSAGE_AUTO_DISMISS"
+    },
+    {
+        "id": 162,
+        "name": "device_model",
+        "display_name": "Device Model",
+        "category": "Event Attributes",
+        "common_event_id": 36,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:03.754Z",
+        "updated_at": "2023-09-06T12:37:03.754Z",
+        "event_name": "ONSITE_MESSAGE_DISMISSED"
+    },
+    {
+        "id": 163,
+        "name": "os_version",
+        "display_name": "OS Version",
+        "category": "Event Attributes",
+        "common_event_id": 36,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:03.952Z",
+        "updated_at": "2023-09-06T12:37:03.952Z",
+        "event_name": "ONSITE_MESSAGE_DISMISSED"
+    },
+    {
+        "id": 167,
+        "name": "logged_in_status",
+        "display_name": "logged_in_status",
+        "category": "Event Attributes",
+        "common_event_id": 36,
+        "values": [],
+        "data_types": [
+            "bool"
+        ],
+        "created_at": "2023-09-06T12:37:04.750Z",
+        "updated_at": "2023-09-06T12:37:04.750Z",
+        "event_name": "ONSITE_MESSAGE_DISMISSED"
+    },
+    {
+        "id": 168,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 36,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:04.950Z",
+        "updated_at": "2023-09-06T12:37:04.950Z",
+        "event_name": "ONSITE_MESSAGE_DISMISSED"
+    },
+    {
+        "id": 169,
+        "name": "utm_campaign",
+        "display_name": "utm_campaign",
+        "category": "Event Attributes",
+        "common_event_id": 36,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:05.147Z",
+        "updated_at": "2023-09-06T12:37:05.147Z",
+        "event_name": "ONSITE_MESSAGE_DISMISSED"
+    },
+    {
+        "id": 170,
+        "name": "utm_content",
+        "display_name": "utm_content",
+        "category": "Event Attributes",
+        "common_event_id": 36,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:05.344Z",
+        "updated_at": "2023-09-06T12:37:05.344Z",
+        "event_name": "ONSITE_MESSAGE_DISMISSED"
+    },
+    {
+        "id": 171,
+        "name": "utm_medium",
+        "display_name": "utm_medium",
+        "category": "Event Attributes",
+        "common_event_id": 36,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:05.545Z",
+        "updated_at": "2023-09-06T12:37:05.545Z",
+        "event_name": "ONSITE_MESSAGE_DISMISSED"
+    },
+    {
+        "id": 174,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 36,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:06.143Z",
+        "updated_at": "2023-09-06T12:37:06.143Z",
+        "event_name": "ONSITE_MESSAGE_DISMISSED"
+    },
+    {
+        "id": 175,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 36,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:06.341Z",
+        "updated_at": "2023-09-06T12:37:06.341Z",
+        "event_name": "ONSITE_MESSAGE_DISMISSED"
+    },
+    {
+        "id": 176,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 36,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:06.539Z",
+        "updated_at": "2023-09-06T12:37:06.539Z",
+        "event_name": "ONSITE_MESSAGE_DISMISSED"
+    },
+    {
+        "id": 181,
+        "name": "device_model",
+        "display_name": "Device Model",
+        "category": "Event Attributes",
+        "common_event_id": 37,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:07.536Z",
+        "updated_at": "2023-09-06T12:37:07.536Z",
+        "event_name": "ONSITE_MESSAGE_SHOWN"
+    },
+    {
+        "id": 182,
+        "name": "os_version",
+        "display_name": "OS Version",
+        "category": "Event Attributes",
+        "common_event_id": 37,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:07.733Z",
+        "updated_at": "2023-09-06T12:37:07.733Z",
+        "event_name": "ONSITE_MESSAGE_SHOWN"
+    },
+    {
+        "id": 186,
+        "name": "logged_in_status",
+        "display_name": "logged_in_status",
+        "category": "Event Attributes",
+        "common_event_id": 37,
+        "values": [],
+        "data_types": [
+            "bool"
+        ],
+        "created_at": "2023-09-06T12:37:08.529Z",
+        "updated_at": "2023-09-06T12:37:08.529Z",
+        "event_name": "ONSITE_MESSAGE_SHOWN"
+    },
+    {
+        "id": 187,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 37,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:08.726Z",
+        "updated_at": "2023-09-06T12:37:08.726Z",
+        "event_name": "ONSITE_MESSAGE_SHOWN"
+    },
+    {
+        "id": 188,
+        "name": "utm_campaign",
+        "display_name": "utm_campaign",
+        "category": "Event Attributes",
+        "common_event_id": 37,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:08.925Z",
+        "updated_at": "2023-09-06T12:37:08.925Z",
+        "event_name": "ONSITE_MESSAGE_SHOWN"
+    },
+    {
+        "id": 189,
+        "name": "utm_content",
+        "display_name": "utm_content",
+        "category": "Event Attributes",
+        "common_event_id": 37,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:09.124Z",
+        "updated_at": "2023-09-06T12:37:09.124Z",
+        "event_name": "ONSITE_MESSAGE_SHOWN"
+    },
+    {
+        "id": 190,
+        "name": "utm_medium",
+        "display_name": "utm_medium",
+        "category": "Event Attributes",
+        "common_event_id": 37,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:09.322Z",
+        "updated_at": "2023-09-06T12:37:09.322Z",
+        "event_name": "ONSITE_MESSAGE_SHOWN"
+    },
+    {
+        "id": 194,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 37,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:10.116Z",
+        "updated_at": "2023-09-06T12:37:10.116Z",
+        "event_name": "ONSITE_MESSAGE_SHOWN"
+    },
+    {
+        "id": 195,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 37,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:10.316Z",
+        "updated_at": "2023-09-06T12:37:10.316Z",
+        "event_name": "ONSITE_MESSAGE_SHOWN"
+    },
+    {
+        "id": 196,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 37,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:10.516Z",
+        "updated_at": "2023-09-06T12:37:10.516Z",
+        "event_name": "ONSITE_MESSAGE_SHOWN"
+    },
+    {
+        "id": 204,
+        "name": "logged_in_status",
+        "display_name": "logged_in_status",
+        "category": "Event Attributes",
+        "common_event_id": 39,
+        "values": [],
+        "data_types": [
+            "bool"
+        ],
+        "created_at": "2023-09-06T12:37:12.117Z",
+        "updated_at": "2023-09-06T12:37:12.117Z",
+        "event_name": "WEBP_MESSAGE_CLICKED"
+    },
+    {
+        "id": 205,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 39,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:12.317Z",
+        "updated_at": "2023-09-06T12:37:12.317Z",
+        "event_name": "WEBP_MESSAGE_CLICKED"
+    },
+    {
+        "id": 209,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 39,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:13.106Z",
+        "updated_at": "2023-09-06T12:37:13.106Z",
+        "event_name": "WEBP_MESSAGE_CLICKED"
+    },
+    {
+        "id": 210,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 39,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:13.309Z",
+        "updated_at": "2023-09-06T12:37:13.309Z",
+        "event_name": "WEBP_MESSAGE_CLICKED"
+    },
+    {
+        "id": 211,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 39,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:13.507Z",
+        "updated_at": "2023-09-06T12:37:13.507Z",
+        "event_name": "WEBP_MESSAGE_CLICKED"
+    },
+    {
+        "id": 219,
+        "name": "logged_in_status",
+        "display_name": "logged_in_status",
+        "category": "Event Attributes",
+        "common_event_id": 40,
+        "values": [],
+        "data_types": [
+            "bool"
+        ],
+        "created_at": "2023-09-06T12:37:15.112Z",
+        "updated_at": "2023-09-06T12:37:15.112Z",
+        "event_name": "WEBP_MESSAGE_DELIVERED"
+    },
+    {
+        "id": 220,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 40,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:15.320Z",
+        "updated_at": "2023-09-06T12:37:15.320Z",
+        "event_name": "WEBP_MESSAGE_DELIVERED"
+    },
+    {
+        "id": 223,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 40,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:15.916Z",
+        "updated_at": "2023-09-06T12:37:15.916Z",
+        "event_name": "WEBP_MESSAGE_DELIVERED"
+    },
+    {
+        "id": 224,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 40,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:16.113Z",
+        "updated_at": "2023-09-06T12:37:16.113Z",
+        "event_name": "WEBP_MESSAGE_DELIVERED"
+    },
+    {
+        "id": 225,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 40,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:16.311Z",
+        "updated_at": "2023-09-06T12:37:16.311Z",
+        "event_name": "WEBP_MESSAGE_DELIVERED"
+    },
+    {
+        "id": 226,
+        "name": "device_model",
+        "display_name": "Device Model",
+        "category": "Event Attributes",
+        "common_event_id": 43,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:16.527Z",
+        "updated_at": "2023-09-06T12:37:16.527Z",
+        "event_name": "MO_PUSH_PREFERENCE_CHANGED"
+    },
+    {
+        "id": 227,
+        "name": "os_version",
+        "display_name": "OS Version",
+        "category": "Event Attributes",
+        "common_event_id": 43,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:16.726Z",
+        "updated_at": "2023-09-06T12:37:16.726Z",
+        "event_name": "MO_PUSH_PREFERENCE_CHANGED"
+    },
+    {
+        "id": 228,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 43,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:16.930Z",
+        "updated_at": "2023-09-06T12:37:16.930Z",
+        "event_name": "MO_PUSH_PREFERENCE_CHANGED"
+    },
+    {
+        "id": 230,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 43,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:17.330Z",
+        "updated_at": "2023-09-06T12:37:17.330Z",
+        "event_name": "MO_PUSH_PREFERENCE_CHANGED"
+    },
+    {
+        "id": 231,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 43,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:17.529Z",
+        "updated_at": "2023-09-06T12:37:17.529Z",
+        "event_name": "MO_PUSH_PREFERENCE_CHANGED"
+    },
+    {
+        "id": 232,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 43,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:17.727Z",
+        "updated_at": "2023-09-06T12:37:17.727Z",
+        "event_name": "MO_PUSH_PREFERENCE_CHANGED"
+    },
+    {
+        "id": 238,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 44,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:18.938Z",
+        "updated_at": "2023-09-06T12:37:18.938Z",
+        "event_name": "NOTIFICATION_CLICKED_IOS_DE"
+    },
+    {
+        "id": 239,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 44,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:19.137Z",
+        "updated_at": "2023-09-06T12:37:19.137Z",
+        "event_name": "NOTIFICATION_CLICKED_IOS_DE"
+    },
+    {
+        "id": 240,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 44,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:19.336Z",
+        "updated_at": "2023-09-06T12:37:19.336Z",
+        "event_name": "NOTIFICATION_CLICKED_IOS_DE"
+    },
+    {
+        "id": 241,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 44,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:19.532Z",
+        "updated_at": "2023-09-06T12:37:19.532Z",
+        "event_name": "NOTIFICATION_CLICKED_IOS_DE"
+    },
+    {
+        "id": 246,
+        "name": "utm_source",
+        "display_name": "utm_source",
+        "category": "Event Attributes",
+        "common_event_id": 45,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:20.535Z",
+        "updated_at": "2023-09-06T12:37:20.535Z",
+        "event_name": "NOTIFICATION_CLICKED_DE"
+    },
+    {
+        "id": 247,
+        "name": "app_version",
+        "display_name": "App Version",
+        "category": "Event Attributes",
+        "common_event_id": 45,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:20.732Z",
+        "updated_at": "2023-09-06T12:37:20.732Z",
+        "event_name": "NOTIFICATION_CLICKED_DE"
+    },
+    {
+        "id": 248,
+        "name": "sdk_version",
+        "display_name": "SDK Version",
+        "category": "Event Attributes",
+        "common_event_id": 45,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:20.930Z",
+        "updated_at": "2023-09-06T12:37:20.930Z",
+        "event_name": "NOTIFICATION_CLICKED_DE"
+    },
+    {
+        "id": 249,
+        "name": "platform",
+        "display_name": "Platform",
+        "category": "Event Attributes",
+        "common_event_id": 45,
+        "values": [],
+        "data_types": [
+            "string"
+        ],
+        "created_at": "2023-09-06T12:37:21.131Z",
+        "updated_at": "2023-09-06T12:37:21.131Z",
+        "event_name": "NOTIFICATION_CLICKED_DE"
+    }
+]

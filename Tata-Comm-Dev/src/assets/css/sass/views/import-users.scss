@@ -1,0 +1,238 @@
+.upload-container {
+  display: flex;
+  flex: 3;
+  align-content: left;
+  width: auto;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+.section {
+  border: 1px dashed $separator-color;
+  background-color: $separator-color-light;
+}
+
+.drag-and-drop {
+  padding: 5rem;
+  text-align: center;
+}
+
+.file-name {
+  padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.remove {
+  color: $theme-color-1;
+  cursor: default;
+  padding-left: 0.5rem;
+}
+
+.checkboxes {
+  font-size: medium;
+}
+
+.download-sample-file {
+  padding-top: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wizard-buttons {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.csv-file-link {
+  color: $theme-color-1;
+  margin-top: 0.4rem;
+}
+
+.tooltip {
+  pointer-events: none;
+}
+
+//styling added for 'MapUser' component
+.map-data-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  margin: 1.5rem;
+
+  .map-data {
+    background-color: $foreground-color;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+    .csv-columns {
+      display: flex;
+      justify-content: space-between;
+
+      .text {
+        float: left;
+        text-transform: capitalize;
+      }
+
+      .icons {
+        float: right;
+        font-size: medium;
+      }
+    }
+
+    .skip-column {
+      cursor: pointer;
+    }
+
+    .include-skip-column {
+      cursor: pointer;
+    }
+
+    .card-link {
+      text-align: center;
+      font-weight: bold;
+      color: $theme-color-1;
+      display: block;
+      margin: 1rem 0rem;
+    }
+
+    .list-group-item {
+      &.list-header {
+        text-transform: capitalize;
+        background-color: $theme-color-1;
+        color: $foreground-color;
+        border: 2px solid $foreground-color;
+      }
+
+      &.list-items {
+        background-color: $theme-color-3;
+        border: 2px solid $foreground-color;
+      }
+    }
+
+    .see-more-data {
+      font-size: medium;
+      display: block;
+      color: $theme-color-1;
+      text-align: center;
+      i {
+        font-weight: 600;
+      }
+    }
+    .error-msg {
+      color: $error-color;
+    }
+
+    .custom-col-empty-div {
+      margin-top: 3rem;
+    }
+
+    .anonymous-id {
+      margin-top: -2rem;
+      align-content: center;
+    }
+
+    .custom-empty-col {
+      margin-bottom: -2rem;
+    }
+  }
+}
+
+.show-skipped-col {
+  margin-top: 20px;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+  }
+}
+
+.select-cust-attribute {
+  padding-bottom: 1rem;
+  width: 90%;
+}
+
+.add-custom-attribute {
+  width: 85%;
+}
+
+.custom-attribute-list {
+  padding-top: 1rem;
+}
+
+//styling added for 'selection of user' component
+
+.user-selection {
+  flex: 1;
+  margin-left: 10px;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: $foreground-color;
+  .user-selection-title {
+    text-align: center;
+  }
+
+  &.user-selected {
+    border: 2px solid $theme-color-1;
+    box-shadow: 0 0 1px 1px $theme-color-3;
+
+    .user-selection-title {
+      color: $theme-color-1;
+      text-align: center;
+    }
+
+    .color-title {
+      color: $theme-color-1;
+    }
+  }
+}
+
+.custom-radio-button {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+.custom-radio-button :checked {
+  background-color: $theme-color-1;
+  border-color: $theme-color-1;
+}
+.identifier-checkbox {
+  display: flex;
+  margin-bottom: -2rem;
+}
+.import-list {
+  .rt-cell-data {
+    text-align: center;
+  }
+  .info-icon {
+    color: $error-color;
+  }
+}
+
+.disabled-dropdown {
+  .react-select__value-container,
+  .react-select__control--is-disabled {
+    background-color: $separator-color-light !important;
+  }
+}
+.error-msg {
+  color: $error-color;
+}

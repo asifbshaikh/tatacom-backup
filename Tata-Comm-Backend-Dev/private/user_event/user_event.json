@@ -1,0 +1,2135 @@
+[
+    {
+        "name": "APP_OPENED",
+        "displayed_name": "App/Site Opened",
+        "description": "Tracked when a user session begins on the app or website.",
+        "category": "Lifecycle",
+        "source": [
+            "S2S",
+            "SDK"
+        ]
+    },
+    {
+        "name": "USER_LOGOUT",
+        "displayed_name": "User Logout",
+        "description": "Tracked when user Logout of the app/site or user reset.",
+        "category": "Lifecycle",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "PAGE_VIEWED",
+        "displayed_name": "Viewed Web Page",
+        "description": "Tracked when a user visits a web page. Select page URL as event attribute to find number of users visiting a particular page or use it to setup a \"Drop-off capture\" Smart Trigger Web Push.",
+        "category": "Lifecycle",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "USER_MERGED",
+        "displayed_name": "User Merged",
+        "description": "This event is tracked for a known user whenever a moengage user object is merged with it",
+        "category": "Lifecycle",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "UPDATE",
+        "displayed_name": "App Update",
+        "description": "Tracked when user updates the App.",
+        "category": "Lifecycle",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "INSTALL",
+        "displayed_name": "INSTALL",
+        "description": "Tracked when a user installs the app on the device.",
+        "category": "Acquisition",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Device Uninstall",
+        "displayed_name": "Device Uninstall",
+        "description": "Tracked when a user uninstalls the app on a device.",
+        "category": "Uninstall",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "USER_REINSTALL",
+        "displayed_name": "User ReInstall",
+        "description": "Tracked when a inactive user reinstalls the app on a device.",
+        "category": "Uninstall",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "REINSTALL",
+        "displayed_name": "Device ReInstall",
+        "description": "Tracked when a user reinstalls the app on a device.",
+        "category": "Uninstall",
+        "source": [
+            "INTERNAL",
+            "SDK"
+        ]
+    },
+    {
+        "name": "OPT_IN_BLOCKED",
+        "displayed_name": "Denied Web Push Subscription",
+        "description": "Tracked when a user denies to receive push notifications on Web.",
+        "category": "Reachability",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "WEB_OPTIN_ACCEPTED",
+        "displayed_name": "Accepted Web Push Soft-ask",
+        "description": "Tracked when a user accepts the Push Permission Soft-ask on your website as part of the 2-step Push Opt-in mechanism.",
+        "category": "Reachability",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "CAMPAIGN_CONTROL_GROUP",
+        "displayed_name": "User added to Control Group",
+        "description": "Tracked when user is added to control group.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "CAMPAIGN_USER_REMOVED_DUE_TO_CONTROL_GROUP",
+        "displayed_name": "User removed from the campaign due to Control Group",
+        "description": "Tracked when user is removed from the campaign due to control group.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "CARD_CLICKED",
+        "displayed_name": "Card Campaign Clicked",
+        "description": "Triggered when user clicks on a Card present in the App Inbox",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "CARD_DELIVERED",
+        "displayed_name": "Card Campaign Delivered",
+        "description": "Tracked when card is sent to App Inbox after user clicks on App Inbox icon.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "CARD_IMPRESSION",
+        "displayed_name": "Card Campaign Viewed",
+        "description": "Tracked when card view happens.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "CARD_INBOX_CLICKED",
+        "displayed_name": "App Inbox Icon Clicked",
+        "description": "Tracked when user clicks on App Inbox icon.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "EMAIL_CLICK",
+        "displayed_name": "Email Clicked",
+        "description": "Tracked when a user clicks on any link in the email.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "EMAIL_DEFERRED",
+        "displayed_name": "Email Deferred",
+        "description": "Tracked when the receiving server delayed acceptance of the email message.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "EMAIL_DELIVERED",
+        "displayed_name": "Email Delivered",
+        "description": "Tracked when an email is delivered to the user.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "EMAIL_DROPPED_UNSUBSCRIBE",
+        "displayed_name": "Email Unsubscribe Drop",
+        "description": "Tracked when the email is dropped because user was already part of unsubscribe list.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "EMAIL_HARD_BOUNCE",
+        "displayed_name": "Email Bounced",
+        "description": "Tracked when our system finds an email is hard bounced. Typically happens when email adderss doesn't exist.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "EMAIL_OPEN",
+        "displayed_name": "Email Opened",
+        "description": "Tracked when a user opens an email.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "EMAIL_SENT",
+        "displayed_name": "Email Sent",
+        "description": "Tracked when our system sends email to a user.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "EMAIL_SPAM",
+        "displayed_name": "Email Spam Complained",
+        "description": "Tracked when a user marks the email as spam.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "EMAIL_UNSUBSCRIBE",
+        "displayed_name": "Email Unsubscribed",
+        "description": "Tracked when a user unsubcribes from receiving emails.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "EMAIL_VIB",
+        "displayed_name": "Email Viewed In Browser",
+        "description": "Tracked when a user clicks on View in browser link present in the email.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "FB_AUDIENCE_SYNC",
+        "displayed_name": "Facebook Audience Synced",
+        "description": "Tracked when Facebook API returns 2xx response for add or delete request to an audience.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "FLOW_TRIP_CONVERSION",
+        "displayed_name": "Flow Trip Conversion",
+        "description": "Tracked when a user performs the conversion goal during their flow trip",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "IN_APP_AUTO_DISMISS",
+        "displayed_name": "Mobile In-App Auto Dismissed",
+        "description": "Tracked when a Mobile InApp Message is auto dismissed.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "IN_APP_CLICKED",
+        "displayed_name": "Mobile In-App Clicked",
+        "description": "Tracked when a Mobile InApp Message is clicked by the user.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "IN_APP_DISMISSED",
+        "displayed_name": "Mobile In-App Closed",
+        "description": "Tracked when a Mobile InApp Message is closed by the user.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "IN_APP_SHOWN",
+        "displayed_name": "Mobile In-App Shown",
+        "description": "Tracked when a Mobile InApp Message is shown to the user.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "ONSITE_MESSAGE_AUTO_DISMISS",
+        "displayed_name": "On-site Message Auto Dismissed",
+        "description": "Tracked when an On-site Messaging Campaign is auto dismissed.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "ONSITE_MESSAGE_CLICKED",
+        "displayed_name": "On-site Message Clicked",
+        "description": "Tracked when an On-site Messaging Campaign is clicked by the user.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "ONSITE_MESSAGE_DISMISSED",
+        "displayed_name": "On-site Message Closed",
+        "description": "Tracked when an On-site Messaging Campaign is closed by the user.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "ONSITE_MESSAGE_SHOWN",
+        "displayed_name": "On-site Message Shown",
+        "description": "Tracked when an On-site Messaging Campaign is shown to the user.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "SMS_CLICKED",
+        "displayed_name": "SMS Clicked",
+        "description": "Tracked when app/web link in SMS Campaign sent via MoEngage is clicked by user.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "WEBP_MESSAGE_CLICKED",
+        "displayed_name": "Web Personalization Message Clicked",
+        "description": "Tracked when a Web Personalization Campaign Message is clicked by the user.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "WEBP_MESSAGE_DELIVERED",
+        "displayed_name": "Web Personalization Message Delivered",
+        "description": "Tracked when a Web Personalization Campaign Message is delivered to the user.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "WEBP_MESSAGE_SHOWN",
+        "displayed_name": "Web Personalization Message Shown",
+        "description": "Tracked when a Web Personalization Campaign Message is shown to the user.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "WHATSAPP_DELIVERY_FAILED",
+        "displayed_name": "WhatsApp Message Delivery Failed",
+        "description": "Tracked when provider failed to send/deliver a WhatsApp Message for a user",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "MO_PUSH_PREFERENCE_CHANGED",
+        "displayed_name": "Push Preference Changed iOS",
+        "description": "Tracked when iOS device push preference is changed. It has the modified status.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "NOTIFICATION_CLICKED_IOS",
+        "displayed_name": "Notification Clicked iOS",
+        "description": "Tracked when a user clicks notification on iOS device.",
+        "category": "Campaign Activity",
+        "source": [
+            "S2S",
+            "SDK"
+        ]
+    },
+    {
+        "name": "NOTIFICATION_CLICKED",
+        "displayed_name": "Notification Clicked Android",
+        "description": "Tracked when a user clicks notification on Android device.",
+        "category": "Campaign Activity",
+        "source": ["S2S",
+            "SDK"
+        ]
+    },
+    {
+        "name": "NOTIFICATION_CLICKED_WINDOWS",
+        "displayed_name": "Notification Clicked Windows",
+        "description": "Tracked when a user clicks notification on Windows device.",
+        "category": "Campaign Activity",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "NOTIFICATION_RECEIVED_IOS",
+        "displayed_name": "Notification Received iOS",
+        "description": "Tracked when a user receives notification on iOS device.",
+        "category": "Campaign Activity",
+        "source": [
+            "S2S",
+            "SDK"
+        ]
+    },
+    {
+        "name": "NOTIFICATION_RECEIVED",
+        "displayed_name": "Notification Received Android",
+        "description": "Tracked when a user receives notification on Android device. It may take up to 12 hours for this event to be available in user profiles, for Segmentation and Analytics. There will be no delay for updating impressions in your campaign stats and for your Smart Trigger Campaigns to be triggered basis this event.",
+        "category": "Campaign Activity",
+        "source": [
+            "S2S",
+            "SDK"
+        ]
+    },
+    {
+        "name": "SMS_DELIVERED",
+        "displayed_name": "SMS Delivered",
+        "description": "Tracked when our system receives delivery receipt for the SMS sent to a user.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": "USER ENTERED FLOW",
+        "displayed_name": "User Entered Flow",
+        "description": "Tracked when a user falls in the target audience and has qualified for the entry in the Flow.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "USER EXITED FLOW",
+        "displayed_name": "User Exited Flow",
+        "description": "Tracked when a user exits from a Stop Cell of the Flow.",
+        "category": "Campaign Activity",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "n_c_s",
+        "displayed_name": "Card Campaign Sent",
+        "description": "Tracked when a notification is sent to the user as Cards campaign, doesn't indicate if the notification is received.",
+        "category": "Campaign Activity",
+        "source": [
+            "INTERNAL"
+        ]
+    },
+    {
+        "name": " Ancillary Service Purchased  ",
+        "displayed_name": " Ancillary Service Purchased  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Ancillary Services Viewed  ",
+        "displayed_name": " Ancillary Services Viewed  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Bill Payment Successful  ",
+        "displayed_name": " Bill Payment Successful  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Email Opened  ",
+        "displayed_name": " Email Opened  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Email Received  ",
+        "displayed_name": " Email Received  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Email Sent",
+        "displayed_name": " Email Sent",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Email Sent  ",
+        "displayed_name": " Email Sent  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Flight Details Viewed  ",
+        "displayed_name": " Flight Details Viewed  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Flight Searched  ",
+        "displayed_name": " Flight Searched  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Grocery Payment Successful  ",
+        "displayed_name": " Grocery Payment Successful  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Money Remittance Success  ",
+        "displayed_name": " Money Remittance Success  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Push Notification Clicked  ",
+        "displayed_name": " Push Notification Clicked  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Push Notification Received  ",
+        "displayed_name": " Push Notification Received  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Transfer Success  ",
+        "displayed_name": " Transfer Success  ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": " Viewed Category Page - Fashion ",
+        "displayed_name": " Viewed Category Page - Fashion ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "1_loan_application_started",
+        "displayed_name": "1_loan_application_started",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "1_loan_requirement",
+        "displayed_name": "1_loan_requirement",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "2_access_eligibility",
+        "displayed_name": "2_access_eligibility",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "2_eligibility_search_result",
+        "displayed_name": "2_eligibility_search_result",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "2_loan_offer_selected",
+        "displayed_name": "2_loan_offer_selected",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "3_application_submit",
+        "displayed_name": "3_application_submit",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Aadhar_otp_verification",
+        "displayed_name": "Aadhar_otp_verification",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Added to Cart - SM Testing",
+        "displayed_name": "Added to Cart - SM Testing",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "App Download - QR Code",
+        "displayed_name": "App Download - QR Code",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "App Installed",
+        "displayed_name": "App Installed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "App/Site Opened",
+        "displayed_name": "App/Site Opened",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S",
+            "SDK"
+        ]
+    },
+    {
+        "name": "Article Read",
+        "displayed_name": "Article Read",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "BFSI - Application Completed",
+        "displayed_name": "BFSI - Application Completed",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "BFSI - Application Started",
+        "displayed_name": "BFSI - Application Started",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "BFSI - Application Step 1",
+        "displayed_name": "BFSI - Application Step 1",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "BFSI - Application Step 2",
+        "displayed_name": "BFSI - Application Step 2",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "BFSI - Claim Initiated",
+        "displayed_name": "BFSI - Claim Initiated",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "BFSI - Payment",
+        "displayed_name": "BFSI - Payment",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "BFSI - Policy Payment Made",
+        "displayed_name": "BFSI - Policy Payment Made",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "BFSI - Policy Purchased",
+        "displayed_name": "BFSI - Policy Purchased",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "BFSI - Policy Renewed",
+        "displayed_name": "BFSI - Policy Renewed",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Button Clicked - SM Testing",
+        "displayed_name": "Button Clicked - SM Testing",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "CRYPTO-Content Read",
+        "displayed_name": "CRYPTO-Content Read",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Chapter Access By User",
+        "displayed_name": "Chapter Access By User",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Coffee Voucher Redeemed",
+        "displayed_name": "Coffee Voucher Redeemed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "DATA API Event",
+        "displayed_name": "DATA API Event",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Destination Searched",
+        "displayed_name": "Destination Searched",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Dining Voucher Redeemed",
+        "displayed_name": "Dining Voucher Redeemed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Displayed Web Push Subscription",
+        "displayed_name": "Displayed Web Push Subscription",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "ENT - Content Played",
+        "displayed_name": "ENT - Content Played",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "ENT - Content Searched",
+        "displayed_name": "ENT - Content Searched",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Email Campaign",
+        "displayed_name": "Email Campaign",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Email Confirmation",
+        "displayed_name": "Email Confirmation",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Email Opened User",
+        "displayed_name": "Email Opened User",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Email Sent ",
+        "displayed_name": "Email Sent ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Email sent",
+        "displayed_name": "Email sent",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "FSI Product View",
+        "displayed_name": "FSI Product View",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Flight Searched",
+        "displayed_name": "Flight Searched",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Game-Select Character",
+        "displayed_name": "Game-Select Character",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Game_Exit",
+        "displayed_name": "Game_Exit",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Game_SelectCharacter",
+        "displayed_name": "Game_SelectCharacter",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Game_Sign-Up",
+        "displayed_name": "Game_Sign-Up",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Game_Started",
+        "displayed_name": "Game_Started",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Game_TopUp",
+        "displayed_name": "Game_TopUp",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Game_VerifyEmail",
+        "displayed_name": "Game_VerifyEmail",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Groceries Ordered",
+        "displayed_name": "Groceries Ordered",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HTL_book_now",
+        "displayed_name": "HTL_book_now",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HTL_booked",
+        "displayed_name": "HTL_booked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HTL_date_change",
+        "displayed_name": "HTL_date_change",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HTL_search",
+        "displayed_name": "HTL_search",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HTL_select",
+        "displayed_name": "HTL_select",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HTL_upgrade",
+        "displayed_name": "HTL_upgrade",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HW_Added to Cart",
+        "displayed_name": "HW_Added to Cart",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HW_App/Site Opened",
+        "displayed_name": "HW_App/Site Opened",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HW_Applied Filter",
+        "displayed_name": "HW_Applied Filter",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HW_Booking Complete",
+        "displayed_name": "HW_Booking Complete",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HW_Login Success",
+        "displayed_name": "HW_Login Success",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HW_Property Viewed",
+        "displayed_name": "HW_Property Viewed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HW_Search Initiated",
+        "displayed_name": "HW_Search Initiated",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HW_Search Submitted",
+        "displayed_name": "HW_Search Submitted",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HW_Viewed Property Listing Page",
+        "displayed_name": "HW_Viewed Property Listing Page",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HW_Viewed Web Page",
+        "displayed_name": "HW_Viewed Web Page",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "HW_Viewed Web Push Soft-ask",
+        "displayed_name": "HW_Viewed Web Push Soft-ask",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "In-App Clicked",
+        "displayed_name": "In-App Clicked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "In-App Sent",
+        "displayed_name": "In-App Sent",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Inapp/Oniste Notification Closed",
+        "displayed_name": "Inapp/Oniste Notification Closed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Inapp/Oniste received ",
+        "displayed_name": "Inapp/Oniste received ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Item Added to Cart",
+        "displayed_name": "Item Added to Cart",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Job - App/Site Opened",
+        "displayed_name": "Job - App/Site Opened",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Job - Category Selected",
+        "displayed_name": "Job - Category Selected",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Job - Location",
+        "displayed_name": "Job - Location",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Job - Salary Selected",
+        "displayed_name": "Job - Salary Selected",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Job - Viewed Listing page",
+        "displayed_name": "Job - Viewed Listing page",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Job Applied",
+        "displayed_name": "Job Applied",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "KYC Step 1",
+        "displayed_name": "KYC Step 1",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "KYC Step 2",
+        "displayed_name": "KYC Step 2",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Language Learnt",
+        "displayed_name": "Language Learnt",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Level Access By User",
+        "displayed_name": "Level Access By User",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Live Session Course Registration",
+        "displayed_name": "Live Session Course Registration",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "LoggedIn",
+        "displayed_name": "LoggedIn",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Loyalty Points Redeemed",
+        "displayed_name": "Loyalty Points Redeemed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "MM Email Form Submitted",
+        "displayed_name": "MM Email Form Submitted",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "MM Email Link Clicked",
+        "displayed_name": "MM Email Link Clicked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "MM Email Opened",
+        "displayed_name": "MM Email Opened",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "MM Template - 29-03-2023 - 05:01 Form Submitted",
+        "displayed_name": "MM Template - 29-03-2023 - 05:01 Form Submitted",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "PRODUCT_PURCHASED",
+        "displayed_name": "PRODUCT_PURCHASED",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "MP Bill Due",
+        "displayed_name": "MP Bill Due",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "MP Bill Fetch Initiated",
+        "displayed_name": "MP Bill Fetch Initiated",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "MP Bill Fetch Success",
+        "displayed_name": "MP Bill Fetch Success",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "MP Enter Number",
+        "displayed_name": "MP Enter Number",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "MP Select Operator",
+        "displayed_name": "MP Select Operator",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "MR Enter Number",
+        "displayed_name": "MR Enter Number",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "MR Plan Details",
+        "displayed_name": "MR Plan Details",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "MR Select Operator",
+        "displayed_name": "MR Select Operator",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "MR Select Plan",
+        "displayed_name": "MR Select Plan",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Media_App_Launched",
+        "displayed_name": "Media_App_Launched",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Media_Article_Read",
+        "displayed_name": "Media_Article_Read",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Media_Page View",
+        "displayed_name": "Media_Page View",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Media_Podcst_Viewed",
+        "displayed_name": "Media_Podcst_Viewed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Media_Video_Seen",
+        "displayed_name": "Media_Video_Seen",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Menu Viewed",
+        "displayed_name": "Menu Viewed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "New Job",
+        "displayed_name": "New Job",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "New application clicked",
+        "displayed_name": "New application clicked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Onsite Campaign",
+        "displayed_name": "Onsite Campaign",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Onsite Clicked",
+        "displayed_name": "Onsite Clicked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Onsite Sent",
+        "displayed_name": "Onsite Sent",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "PS_Viewed_Home_Page",
+        "displayed_name": "PS_Viewed_Home_Page",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Pay Successful",
+        "displayed_name": "Pay Successful",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Payment Initiated",
+        "displayed_name": "Payment Initiated",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Post Redemption Survey",
+        "displayed_name": "Post Redemption Survey",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Product Purchased",
+        "displayed_name": "Product Purchased",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Product Viewed",
+        "displayed_name": "Product Viewed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "ProductCheck",
+        "displayed_name": "ProductCheck",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Public Key Success",
+        "displayed_name": "Public Key Success",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Public Key Used",
+        "displayed_name": "Public Key Used",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Push Clicked",
+        "displayed_name": "Push Clicked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Push Notification Clicked User",
+        "displayed_name": "Push Notification Clicked User",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Push Notification sent",
+        "displayed_name": "Push Notification sent",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Push Sent",
+        "displayed_name": "Push Sent",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "RTL-Add to Cart",
+        "displayed_name": "RTL-Add to Cart",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "RTL-Added to Cart",
+        "displayed_name": "RTL-Added to Cart",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "RTL-App Download",
+        "displayed_name": "RTL-App Download",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "RTL-Email Sent",
+        "displayed_name": "RTL-Email Sent",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "RTL-Offline Purchase",
+        "displayed_name": "RTL-Offline Purchase",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "RTL-Order Successful",
+        "displayed_name": "RTL-Order Successful",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "RTL-Product View",
+        "displayed_name": "RTL-Product View",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "RTL-Product Viewed",
+        "displayed_name": "RTL-Product Viewed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "RTL-Signup",
+        "displayed_name": "RTL-Signup",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "RTl-Store Visit",
+        "displayed_name": "RTl-Store Visit",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Ride Completed",
+        "displayed_name": "Ride Completed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Ride Started",
+        "displayed_name": "Ride Started",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "SIP Installment",
+        "displayed_name": "SIP Installment",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "SIP Intiated",
+        "displayed_name": "SIP Intiated",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "SMS Clicked",
+        "displayed_name": "SMS Clicked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "SW-AddtoCart",
+        "displayed_name": "SW-AddtoCart",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "SW-MenuViewed",
+        "displayed_name": "SW-MenuViewed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "SW-OrderConfirmed",
+        "displayed_name": "SW-OrderConfirmed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Salary Received ",
+        "displayed_name": "Salary Received ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Screen Visit",
+        "displayed_name": "Screen Visit",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Screentime ",
+        "displayed_name": "Screentime ",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Search Option Clicked",
+        "displayed_name": "Search Option Clicked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Sign-In",
+        "displayed_name": "Sign-In",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Signup",
+        "displayed_name": "Signup",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Spa Voucher Redeemed",
+        "displayed_name": "Spa Voucher Redeemed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Spin The Wheel Redeemed",
+        "displayed_name": "Spin The Wheel Redeemed",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Stock Viewed",
+        "displayed_name": "Stock Viewed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Stream Visit",
+        "displayed_name": "Stream Visit",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Subscribed to Web Push",
+        "displayed_name": "Subscribed to Web Push",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Successful Login",
+        "displayed_name": "Successful Login",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Successful Registration",
+        "displayed_name": "Successful Registration",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "TELC - Data Throttle",
+        "displayed_name": "TELC - Data Throttle",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "TELC - IR Plan Purchased",
+        "displayed_name": "TELC - IR Plan Purchased",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "TRVL - Booking Complete",
+        "displayed_name": "TRVL - Booking Complete",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "TRVL - Choose Journey",
+        "displayed_name": "TRVL - Choose Journey",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "TRVL - Choose Seats and AddOns",
+        "displayed_name": "TRVL - Choose Seats and AddOns",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "TRVL - Choose Tickets",
+        "displayed_name": "TRVL - Choose Tickets",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "TRVL - Find Journey",
+        "displayed_name": "TRVL - Find Journey",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "TRVL - Pay Now",
+        "displayed_name": "TRVL - Pay Now",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "TRVL - Trip Booked",
+        "displayed_name": "TRVL - Trip Booked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "TRVL - Trip Searched",
+        "displayed_name": "TRVL - Trip Searched",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Transaction Successful",
+        "displayed_name": "Transaction Successful",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Trip Booked",
+        "displayed_name": "Trip Booked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Trip Cancelled",
+        "displayed_name": "Trip Cancelled",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Trip Completed",
+        "displayed_name": "Trip Completed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Trip Details Viewed",
+        "displayed_name": "Trip Details Viewed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Trip Rescheduled",
+        "displayed_name": "Trip Rescheduled",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Trip Searched",
+        "displayed_name": "Trip Searched",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Trip Selected",
+        "displayed_name": "Trip Selected",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "User Logout",
+        "displayed_name": "User Logout",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Viewed Category Page - Fashion",
+        "displayed_name": "Viewed Category Page - Fashion",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Viewed Page- Around Me",
+        "displayed_name": "Viewed Page- Around Me",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Viewed Web Page",
+        "displayed_name": "Viewed Web Page",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Viewed Web Push Soft-ask",
+        "displayed_name": "Viewed Web Push Soft-ask",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Visited Spin The Wheel",
+        "displayed_name": "Visited Spin The Wheel",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Wallet Loaded",
+        "displayed_name": "Wallet Loaded",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Watch Stream",
+        "displayed_name": "Watch Stream",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Watch Vod",
+        "displayed_name": "Watch Vod",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "Web Push Notification Clicked",
+        "displayed_name": "Web Push Notification Clicked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Website Open",
+        "displayed_name": "Website Open",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Welcome Push",
+        "displayed_name": "Welcome Push",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Whatsapp Message Clicked",
+        "displayed_name": "Whatsapp Message Clicked",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Whatsapp Message Read",
+        "displayed_name": "Whatsapp Message Read",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Whatsapp Message Sent",
+        "displayed_name": "Whatsapp Message Sent",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "Whatsapp Sent",
+        "displayed_name": "Whatsapp Sent",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "aadhaar_otp_initiation",
+        "displayed_name": "aadhaar_otp_initiation",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "addedToCart",
+        "displayed_name": "addedToCart",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S",
+            "SDK"
+        ]
+    },
+    {
+        "name": "my_custom_event",
+        "displayed_name": "my_custom_event",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "orderSuccessful",
+        "displayed_name": "orderSuccessful",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S",
+            "SDK"
+        ]
+    },
+    {
+        "name": "order_success",
+        "displayed_name": "order_success",
+        "category": "Tracked User Events",
+        "source": [
+            "SDK"
+        ]
+    },
+    {
+        "name": "otp_initiation",
+        "displayed_name": "otp_initiation",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "otp_verification",
+        "displayed_name": "otp_verification",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S"
+        ]
+    },
+    {
+        "name": "productViewed",
+        "displayed_name": "productViewed",
+        "category": "Tracked User Events",
+        "source": [
+            "S2S",
+            "SDK"
+        ]
+    }
+]

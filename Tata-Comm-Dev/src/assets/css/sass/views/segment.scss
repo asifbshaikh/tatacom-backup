@@ -1,0 +1,325 @@
+.segmentHeader {
+  .dropdownContainer {
+    width: 150px;
+    .menu {
+      border-radius: 10px;
+    }
+  }
+
+  .addSegmentDropDown {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 1rem;
+    .icon {
+      font-size: 1rem;
+      margin-right: 5px;
+    }
+  }
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.segmentBody {
+  .serachInput {
+    position: relative;
+  }
+  .simple-icon-magnifier {
+    font-size: 1rem;
+    position: absolute;
+    top: 30%;
+    right: 20px;
+  }
+  .archivedSegments {
+    float: right;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 50%;
+  }
+}
+#listActionPopOver {
+  width: 160px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  .controlledBtn {
+    background: transparent;
+    border: 0;
+  }
+  .disabled {
+    color: #ddd;
+  }
+  .simpleButton {
+    text-align: left;
+  }
+}
+
+.segmentTypeContainer {
+  .archiveUsers {
+    justify-content: flex-end;
+  }
+  .customSegmentData {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    div {
+      flex: 1;
+    }
+  }
+  .userCount {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 100%;
+  }
+  .tools {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 20px;
+    .tools {
+      .icon {
+        font-size: 1rem;
+      }
+    }
+  }
+  .reachability {
+    .reachabilityTitle {
+      text-align: left;
+    }
+    .reachabilityCard {
+      background: #ddd;
+      height: 2px;
+      display: block;
+    }
+    .reachabilityCardBody {
+      display: flex;
+      gap: 3rem;
+    }
+    .icon {
+      font-size: 1rem;
+    }
+    .simpleUsersBody {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      color: var(--button-text-color);
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      .simpleUsersContent {
+        display: flex;
+        flex-wrap: wrap;
+        .simpleUserProfile {
+          padding: 1.8rem;
+          border-radius: 50%;
+          color: var(--button-text-color);
+        }
+      }
+
+      .simpleUserShowmore {
+        float: right;
+        height: 50px;
+      }
+    }
+  }
+  .card-height-style {
+    min-height: 386px;
+
+    .card-body {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }
+  .card-height-filter-style {
+    min-height: 430px;
+
+    .card-body {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }
+  .min-height-second-row {
+    min-height: 368px;
+    .show-more-btn {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  .reachability-style {
+    .card {
+      background: var(--theme-color-1);
+      border-radius: 8px;
+    }
+    .circle-progress-parent {
+      align-items: center;
+
+      .radial-card-style {
+        color: var(--button-text-color);
+      }
+    }
+  }
+}
+.simpleButton {
+  background: transparent;
+  border: 0;
+}
+.userProfile {
+  .profile {
+    text-align: center;
+    p {
+      background: #ddd;
+      padding: 1rem;
+      border-radius: 50%;
+      height: 100%;
+    }
+  }
+  .userProfileBody {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+.user-after-seg-modal {
+  max-width: calc(100% - 10%);
+}
+
+.upload-sections {
+  border: 1px dashed var(--separator-color);
+}
+
+.drag-and-drop-edit-file {
+  padding: 3rem;
+  text-align: center;
+}
+
+.file-name-edit-file {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.download-file {
+  margin-bottom: 1.3rem;
+  opacity: 0.7;
+}
+
+.download-file-link {
+  color: var(--theme-color-1);
+}
+
+.user-attributes {
+  margin-bottom: 1.3rem;
+}
+.refresh-time,
+.text-align-center {
+  justify-content: center;
+}
+
+.segmentation-filter {
+  background: var(--foreground-color);
+  .collapse {
+    padding: 10px;
+  }
+  .form-group {
+    margin-bottom: 0px !important;
+  }
+  .label-parent {
+    min-height: 33px;
+    display: flex;
+    align-items: center;
+  }
+  .text-no-wrap {
+    .custom-control-label {
+      white-space: nowrap;
+    }
+  }
+  .simple-icon-trash,
+  .filter-by-list-close {
+    color: var(--theme-color-1);
+    opacity: 1;
+  }
+  .segment-filter-block {
+    background: var(--background-color);
+  }
+}
+.all-user-li {
+  li {
+    border: 0px;
+  }
+}
+.stretch-line {
+  border-left: 1px solid var(--theme-color-1);
+  margin-left: 30px;
+}
+.horizontal-tree-line {
+  border-bottom: 1px solid var(--theme-color-1);
+  width: 30px;
+  height: 20px;
+}
+.disable-edit {
+  opacity: 0.6;
+}
+
+.user-affinity-with-attr {
+  .col-md-2 {
+    min-width: 25%;
+  }
+  .col-md-1 {
+    min-width: 12.66667%;
+  }
+}
+.field-array-row {
+  row-gap: 20px;
+}
+.react-grouped-with-count {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--theme-color-1);
+}
+.btn-group > .btn.active {
+  z-index: 0 !important;
+}
+.modal-title {
+  font-size: 18px;
+}
+.query-result-loader {
+  color: var(--theme-color-1) !important;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-width: 0.1em;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.btn-multiple-state.btn-primary:disabled {
+  opacity: 0.5;
+}

@@ -1,0 +1,3 @@
+first_name,name,email,phone_number,birth_date,errors
+alan,cooper,persieeec61bv@gmail.com,9040550011,12/12/2020,first_name Type mismatch for the uploaded column name @@@@
+grace,hooper,persieeec61bv@gmail.com,9040561002,12/12/2020,"email: has already been taken, phone_number: has already been taken"

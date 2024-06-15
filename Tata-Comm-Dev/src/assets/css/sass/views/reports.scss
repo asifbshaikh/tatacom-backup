@@ -1,0 +1,92 @@
+.csat--metrics-container {
+  background: $foreground-color;
+  margin: 0.8rem 0;
+  border-radius: 0.5rem;
+  border: 1px solid $separator-color-light;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+.csat--metric-card {
+  margin: 0;
+  padding: 2rem 0.8rem 1.6rem 2rem;
+
+  .heading-tooltip {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .heading {
+    align-items: center;
+    color: $primary-color;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .metric {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.emoji_bar {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  left: 100px;
+  position: relative;
+  padding-top: 2rem;
+
+  .bar-chart {
+    margin-top: 0.8rem;
+    left: 400px;
+  }
+}
+
+.emoji {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 2px;
+
+  .pics {
+    padding-left: 0.6rem;
+  }
+
+  .value {
+    padding-left: 3px;
+  }
+}
+
+.canvas {
+  width: 100%;
+}
+
+.scrollable-content {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 600px;
+  max-width: 100%;
+}
+
+.csat-pagination {
+  display: flex;
+  flex-direction: row;
+}
+
+.csat-response {
+  background-color: $foreground-color;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.filter-select {
+  min-width: 200px;
+}
+
+.form-control {
+  color: hsl(0, 0%, 50%);
+}

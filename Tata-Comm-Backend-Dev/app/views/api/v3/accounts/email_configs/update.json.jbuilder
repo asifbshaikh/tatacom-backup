@@ -1,0 +1,9 @@
+json.id @email_config.id
+json.host_name @email_config.smtp_address
+json.port @email_config.smtp_port
+json.smtp_user_name @email_config.smtp_email
+json.protocol @email_config.smtp_protocol
+json.smtp_auth_enable @email_config.smtp_auth_enable
+json.maximum_send_rate @email_config.maximum_send_rate
+json.unsubscribe_setting @email_config.unsubscribe_setting
+json.bounces_and_complaint_tracking @email_config.bounces_and_complaint_tracking      

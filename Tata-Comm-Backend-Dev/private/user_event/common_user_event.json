@@ -1,0 +1,121 @@
+[
+    {
+        "name": "EMAIL_BOUNCED",
+        "displayed_name": "Email Bounced",
+        "description": "Tracked when our system finds an email is hard bounced. Typically happens when an email address doesn't exist. This is tracked uniquely for every user based on the user ID.",
+        "category": "Campaign Activity",
+        "source": ["Email"]
+    },
+    {
+        "name": "EMAIL_CLICKED",
+        "displayed_name": "Email Clicked",
+        "description": "Tracked when a user clicks on any link in the email.",
+        "category": "Campaign Activity",
+        "source": ["Email"]
+    },
+    {
+        "name": "EMAIL_COMPLAINED",
+        "displayed_name": "Email Complained",
+        "description": "Tracked when a user marks the email as spam.",
+        "category": "Campaign Activity",
+        "source": ["Email"]
+    },
+    {
+        "name": "EMAIL_DROPPED",
+        "displayed_name": "Email Dropped",
+        "description": "Tracked when an email is dropped. Email is dropped, when it's part of the bounce list, the unsubscribe list, or the spam report list.",
+        "category": "Campaign Activity",
+        "source": ["Email"]
+    },
+    {
+        "name": "EMAIL_OPENED",
+        "displayed_name": "Email Opened",
+        "description": "Tracked when a user opens an email.",
+        "category": "Campaign Activity",
+        "source": ["Email"]
+    },
+    {
+        "name": "EMAIL_SENT",
+        "displayed_name": "Email Sent",
+        "description": "Tracked when our system sends an email to a user.",
+        "category": "Campaign Activity",
+        "source": ["Email"]
+    },
+    {
+        "name": "EMAIL_SOFT_BOUNCED",
+        "displayed_name": "Email Soft Bounced",
+        "description": "Tracked when our system finds an email is soft-bounced. Typically happens when there is a temporary delivery issue. This is tracked uniquely for every user based on the user ID. ",
+        "category": "Campaign Activity",
+        "source": ["Email"]
+    },
+    {
+        "name": "EMAIL_UNSUBSCRIBE",
+        "displayed_name": "Email Unsubscribed",
+        "description": "Tracked when a user unsubscribes from receiving emails.",
+        "category": "Campaign Activity",
+        "source": ["Email"]
+    },
+    {
+        "name": "EMAIL_UNSUBSCRIBE_DROP",
+        "displayed_name": "Email Unsubscribe Drop",
+        "description": "Tracked when an email is dropped because the user is part of an unsubscribe list. This is tracked at SendGrid. This event is currently under BETA. ",
+        "category": "Campaign Activity",
+        "source": ["Email"]
+    },
+    {
+        "name": "EMAIL_VIEWED_IN_BROWSER",
+        "displayed_name": "Email Viewed in Browser",
+        "description": "Tracked when a user clicks on the view in the browser link present in the email.",
+        "category": "Campaign Activity",
+        "source": ["Email"]
+    },
+    {
+        "name": "SMS_DELIVERED",
+        "displayed_name": "SMS Delivered",
+        "description": "Tracked when our system receives a delivery receipt for the SMS sent to a user.",
+        "category": "Campaign Activity",
+        "source": ["SMS"]
+    },
+    {
+        "name": "SMS_SENT",
+        "displayed_name": "SMS Sent",
+        "description": "Tracked when our system sends SMS to a user.",
+        "category": "Campaign Activity",
+        "source": ["SMS"]
+    },
+    {
+        "name": "WHATSAPP_MESSAGE_CLICKED",
+        "displayed_name": "WhatsApp Message Clicked",
+        "description": "Tracked when a WhatsApp Message is read by the user. It will only be available for users who have read receipts enabled.",
+        "category": "Campaign Activity",
+        "source": ["Flows/Campaign Channels"]
+    },
+    {
+        "name": "WHATSAPP_MESSAGE_DELIVERED",
+        "displayed_name": "WhatsApp Message Delivered",
+        "description": "Tracked when a WhatsApp Message is delivered to a user.",
+        "category": "Campaign Activity",
+        "source": ["Flows/Campaign Channels"]
+    },
+    {
+        "name": "WHATSAPP_MESSAGE_DELIVERY_FAILED",
+        "displayed_name": "WhatsApp Message Delivery Failed",
+        "description": "Tracked when provider failed to send/deliver a WhatsApp Message for a user.",
+        "category": "Campaign Activity",
+        "source": ["Flows/Campaign Channels"]
+    },
+    {
+        "name": "WHATSAPP_MESSAGE_READ",
+        "displayed_name": "WhatsApp Message Read",
+        "description": "Tracked when a WhatsApp Message is read by the user. It will only be available for users who have read receipts enabled.",
+        "category": "Campaign Activity",
+        "source": ["Flows/Campaign Channels"]
+    },
+    {
+        "name": "WHATSAPP_MESSAGE_SENT",
+        "displayed_name": "WhatsApp Message Sent",
+        "description": "Tracked when a WhatsApp message is sent to a user.",
+        "category": "Campaign Activity",
+        "source": ["Flows/Campaign Channels"]
+    }
+]

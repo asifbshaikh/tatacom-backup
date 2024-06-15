@@ -1,0 +1,353 @@
+[
+  {
+    "data_types": [
+      "datetime"
+    ],
+    "name": "first_seen",
+    "displayed_name": "First Seen",
+    "description": "First seen time of the user",
+    "category": "Lifecycle"
+  },
+  {
+    "data_types": [
+      "double"
+    ],
+    "name": "ltv",
+    "displayed_name": "LTV",
+    "description": "Life time value of the user",
+    "category": "Lifecycle"
+  },
+  {
+    "data_types": [
+      "double"
+    ],
+    "name": "no_of_conversions",
+    "displayed_name": "No. of Conversions",
+    "description": "No. of conversion events done by the user, Conversion Goal can be modified in settings page.",
+    "category": "Lifecycle"
+  },
+  {
+    "data_types": [
+      "datetime"
+    ],
+    "name": "last_seen",
+    "displayed_name": "Last Seen",
+    "description": "Last seen time of the user",
+    "category": "Lifecycle"
+  },
+  {
+    "data_types": [
+      "double"
+    ],
+    "name": "no_of_sessions",
+    "displayed_name": "No. of Sessions",
+    "description": "No.of sessions done by the user",
+    "category": "Lifecycle"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "campaign_name",
+    "displayed_name": "Campaign Name",
+    "description": "Name of the campaign advertisement through which the user installed the app.",
+    "category": "Acquisition"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "publisher_name",
+    "displayed_name": "Publisher Name",
+    "description": "Name of the Publisher through which the user installed the app.",
+    "category": "Acquisition"
+  },
+  {
+    "data_types": [
+      "bool"
+    ],
+    "name": "install_status",
+    "displayed_name": "Install Status",
+    "description": "Current status of the user, If the user has the app installed on his device.",
+    "category": "Uninstall"
+  },
+  {
+    "data_types": [
+      "datetime"
+    ],
+    "name": "uninstall_time",
+    "displayed_name": "Uninstall Time",
+    "description": "Time when our system found a user has uninstalled the app.",
+    "category": "Uninstall"
+  },
+  {
+    "data_types": [
+      "datetime"
+    ],
+    "name": "device_reinstall",
+    "displayed_name": "Device Reinstall",
+    "description": "Tracked when a reinstall is detected on a device.",
+    "category": "Uninstall"
+  },
+  {
+    "data_types": [
+      "datetime"
+    ],
+    "name": "user_reinstall",
+    "displayed_name": "User Reinstall",
+    "description": "Tracked when an identified user has reinstalled the app.",
+    "category": "Uninstall"
+  },
+  {
+    "data_types": [
+      "bool"
+    ],
+    "name": "push_opt_in_status",
+    "displayed_name": "Push Opt In Status (iOS)",
+    "description": "Push permission status of a user on iOS device.",
+    "category": "Reachability"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "web_push_subscription_page_url",
+    "displayed_name": "Web Push Subscription Page URL",
+    "description": "Page URL of the web page on which a user subscribed to web push. Use it to find where the susbcriptions are happening on your website or categorize your subscribers to send targeted notifications",
+    "category": "Reachability"
+  },
+  {
+    "data_types": [
+      "bool"
+    ],
+    "name": "web_push_subscription_status",
+    "displayed_name": "Web Push Subscription Status",
+    "description": "Denotes the web push subscription status of a user - True / False. Use it to find your aggregate subscribers and users who unsubscribed after subscribing once.",
+    "category": "Reachability"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "sms_subscription_status",
+    "displayed_name": "SMS Subscription Status",
+    "description": "An attribute which stores the SMS subscription status of the user. This will be used to see if a user is reachable based on certain values of the attribute.",
+    "category": "Reachability"
+  },
+  {
+    "data_types": [
+      "double"
+    ],
+    "name": "user_timezone_offset",
+    "displayed_name": "User Time Zone Offset (Mins)",
+    "category": "Localization"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "last_known_city",
+    "displayed_name": "Last Known City",
+    "description": "This attribute is based on user\u2019s last known probable location",
+    "category": "Localization"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "last_known_country",
+    "displayed_name": "Last Known Country",
+    "description": "This attribute is based on user\u2019s last known probable location",
+    "category": "Localization"
+  },
+  {
+    "data_types": [
+      "string",
+      "double"
+    ],
+    "name": "last_known_pincode",
+    "displayed_name": "Last Known Pincode",
+    "description": "This attribute is based on user\u2019s last known probable location",
+    "category": "Localization"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "last_known_state",
+    "displayed_name": "Last Known State",
+    "description": "This attribute is based on user\u2019s last known probable location",
+    "category": "Localization"
+  },
+  {
+    "data_types": [
+      "bool"
+    ],
+    "name": "hard_bounce",
+    "displayed_name": "Hard Bounce",
+    "description": "Denotes if emails to the user have hard bounced",
+    "category": "Email Suppression Type"
+  },
+  {
+    "data_types": [
+      "bool"
+    ],
+    "name": "spam",
+    "displayed_name": "Spam",
+    "description": "Denotes if the user has reported an email as spam",
+    "category": "Email Suppression Type"
+  },
+  {
+    "data_types": [
+      "bool"
+    ],
+    "name": "unsubscribe",
+    "displayed_name": "Unsubscribe",
+    "description": "Denotes if the user has unsubscribed from an email",
+    "category": "Email Suppression Type"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "advertising_identifier",
+    "displayed_name": "Advertising Identifier (iOS & Windows)",
+    "description": "Advertising Identifier of the device on which the app is installed.",
+    "category": "Device Data"
+  },
+  {
+    "data_types": [
+      "bool"
+    ],
+    "name": "mobile_user",
+    "displayed_name": "Mobile User",
+    "description": "Denotes if user accessed the website on mobile.",
+    "category": "Device Data"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "browser_details",
+    "displayed_name": "Browser Details",
+    "description": "Browser details of web user includes - Platform, Browser, Manufacturer",
+    "category": "Device Data"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "locale_country",
+    "displayed_name": "Locale Country",
+    "description": "Country of the user derived from device locale settings. for eg. United States. This is a standard attribute where name is provided by Digo Engage and the value is provided by client",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "locale_language",
+    "displayed_name": "Locale Language",
+    "description": "Language of the user derived from device locale settings. for eg. English. This is a standard attribute where name is provided by Digo Engage and the value is provided by client",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "creation_source",
+    "displayed_name": "Creation Source",
+    "description": "Denotes the source through which a user was created. This is a standard attribute where name is provided by Digo Engage and the value is provided by client",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "email",
+    "displayed_name": "Email (Standard)",
+    "description": "Email address of the user. This is a standard attribute where name is provided by Digo Engage and the value is provided by client",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "first_name",
+    "displayed_name": "First Name",
+    "description": "First Name of the user. This is a standard attribute where name is provided by Digo Engage and the value is provided by client",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "gender",
+    "displayed_name": "Gender",
+    "description": "Gender of the user. This is a standard attribute where name is provided by Digo Engage and the value is provided by client",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "last_name",
+    "displayed_name": "Last Name",
+    "description": "Last Name of the user. This is a standard attribute where name is provided by Digo Engage and the value is provided by client",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "phone_number",
+    "displayed_name": "Mobile Number (Standard)",
+    "description": "Mobile Number of the user. This is a standard attribute where name is provided by Digo Engage and the value is provided by client",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "customer_id",
+    "displayed_name": "Customer ID",
+    "description": "Unique Id that the app has set for a user. This is a standard attribute where name is provided by Digo Engage and the value is provided by client",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "location",
+    "displayed_name": "Location",
+    "description": "Latitude and Longitude of the user. This is a standard attribute where the name is provided by Engage 3.0and the value is provided by the client.",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "birth_date",
+    "displayed_name": "Birthday",
+    "description": "Birth date of the user. This is a standard attribute where the name is provided by Engage 3.0 and the value is provided by the client.",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "name",
+    "displayed_name": "Name",
+    "description": "Full Name of the user. This is a standard attribute where the name is provided by Engage 3.0and the value is provided by the client.",
+    "category": "Tracked Standard Attribute"
+  },
+  {
+    "data_types": [
+      "string"
+    ],
+    "name": "sms_subscription_status",
+    "displayed_name": "SMS Subscription Status",
+    "description": "SMS Subscription Status of the user. This is a standard attribute where the SMS Subscription Status is tracked based on the user's subscription preferences.",
+    "category": "Tracked Standard Attribute"
+  }
+]

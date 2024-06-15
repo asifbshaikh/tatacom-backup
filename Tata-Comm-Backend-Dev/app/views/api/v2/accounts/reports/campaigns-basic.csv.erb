@@ -1,0 +1,23 @@
+<% headers = [
+    I18n.t('reports.campaigns_basic_csv.name'),
+    I18n.t('reports.campaigns_basic_csv.number'),
+    I18n.t('reports.campaigns_basic_csv.content'),
+    I18n.t('reports.campaigns_basic_csv.updated_at'),
+    I18n.t('reports.campaigns_basic_csv.status')
+  ]
+  replacements = {
+    '#': '',
+    # '\\': "\\\\"
+  }
+%>
+<%= CSV.generate_line headers %>
+<% Message.find_by_sql(["SELECT
+  M.content, M.updated_at, M.status,
+  CNT.name, CNT.phone_number
+  FROM messages M
+  LEFT JOIN conversations CNVS ON (M.conversation_id = CNVS.id)
+  LEFT JOIN contacts CNT ON (CNVS.contact_id = CNT.id)
+  WHERE M.campaign_id=?", params['campaign_id']]).each do |campaign| %>
+  <% row = [ campaign.name, campaign.phone_number, campaign.content.gsub(Regexp.union(replacements.keys), replacements), campaign.updated_at.in_time_zone(@campaignTimezone).strftime("%d/%m/%Y %H:%M"), campaign.status ] %>
+  <%= CSV.generate_line(row).html_safe %>
+<% end %>
